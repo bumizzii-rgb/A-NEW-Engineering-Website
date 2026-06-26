@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>A NEW Engineering — Content Part 2: All 7 Services Pages</title>
+<style>
+  body { font-family: Arial, sans-serif; font-size: 13px; line-height: 1.6; max-width: 1400px; margin: 0 auto; padding: 20px; background: #f5f7fa; }
+  h1 { background: #1B3A6B; color: #fff; padding: 16px 20px; border-radius: 6px; font-size: 18px; }
+  h2 { background: #0891B2; color: #fff; padding: 10px 16px; border-radius: 4px; font-size: 14px; margin-top: 32px; }
+  h3 { color: #1B3A6B; border-bottom: 2px solid #0891B2; padding-bottom: 4px; font-size: 13px; margin-top: 20px; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0 20px; background: #fff; font-size: 12px; }
+  th { background: #1B3A6B; color: #fff; padding: 8px 10px; text-align: left; font-weight: 600; }
+  td { padding: 8px 10px; border: 1px solid #ddd; vertical-align: top; }
+  td:first-child { background: #EFF4FF; font-weight: 700; color: #1B3A6B; width: 150px; }
+  tr:nth-child(even) td:not(:first-child) { background: #f9fbff; }
+  .note { background: #fffbeb; border: 1px solid #f59e0b; border-radius: 4px; padding: 8px 12px; font-size: 11px; color: #78350f; margin: 8px 0; }
+  .revised td { background: #fff7e6 !important; }
+  .revised td:first-child { background: #fde68a !important; color: #92400e !important; }
+  .revised td:first-child::after { content: " ✏️"; font-size: 10px; }
+  .revised-label { display: inline-block; background: #f59e0b; color: #fff; font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 3px; margin-left: 6px; vertical-align: middle; }
+  .service-nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+  .service-nav a { background: #0891B2; color: #fff; padding: 5px 12px; border-radius: 12px; text-decoration: none; font-size: 11px; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<h1>A NEW Engineering Co., Ltd. — Phase 2 Website Content<br>
+<span style="font-size:13px;font-weight:400;">Part 2 of 3: All 7 Services Pages | EN · TH · ZH · JA</span></h1>
+
+<div class="service-nav">
+  <a href="#s1">CNC Turning</a>
+  <a href="#s2">CNC Milling</a>
+  <a href="#s3">Surface Grinding</a>
+  <a href="#s4">Jig &amp; Fixture</a>
+  <a href="#s5">Sandblasting</a>
+  <a href="#s6">Custom Manufacturing</a>
+  <a href="#s7">Reverse Engineering</a>
+</div>
+
+<div class="note">📋 SHARED ELEMENTS — These appear on every service page sidebar:<br>
+• "All Services" sidebar nav linking to each of the 7 service pages<br>
+• "Request Quote for This Service" red CTA button in sidebar<br>
+• "Related Machinery" section linking to Machinery page<br>
+• "View Related Projects" link at page bottom</div>
+
+<!-- SHARED SIDEBAR LABELS -->
+<h3>SHARED SIDEBAR LABELS (all 7 service pages)</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>Sidebar Nav Title</td><td>All Services</td><td>บริการทั้งหมด</td><td>全部服务</td><td>全サービス</td></tr>
+<tr><td>Sidebar CTA Title</td><td>Need This Service?</td><td>ต้องการบริการนี้ใช่ไหม?</td><td>需要此服务？</td><td>このサービスが必要ですか？</td></tr>
+<tr class="revised"><td>Sidebar CTA Sub</td><td>Contact our team for a quotation</td><td>ติดต่อทีมงานของเราเพื่อขอใบเสนอราคา</td><td>联系我们的团队获取报价</td><td>見積はチームまでお問い合わせください</td></tr>
+<tr><td>Sidebar CTA Button</td><td>Get a Quote</td><td>ขอใบเสนอราคา</td><td>申请报价</td><td>お見積りを依頼</td></tr>
+<tr><td>Related Machinery Title</td><td>Machines Used for This Service</td><td>เครื่องจักรที่ใช้สำหรับบริการนี้</td><td>用于此服务的设备</td><td>このサービスに使用する機械</td></tr>
+<tr><td>Related Projects Title</td><td>Related Project Samples</td><td>ตัวอย่างผลงานที่เกี่ยวข้อง</td><td>相关项目案例</td><td>関連製作実績サンプル</td></tr>
+<tr><td>Page-bottom CTA</td><td>Ready to Get Started? Request a Quote for This Service</td><td>พร้อมเริ่มต้นแล้วใช่ไหม? ขอใบเสนอราคาสำหรับบริการนี้</td><td>准备好了吗？申请此服务报价</td><td>始める準備はできましたか？このサービスの見積を依頼する</td></tr>
+<tr><td>Breadcrumb pattern</td><td>Home → Services → [Service Name]</td><td>หน้าแรก → บริการ → [ชื่อบริการ]</td><td>首页 → 服务 → [服务名称]</td><td>ホーム → サービス → [サービス名]</td></tr>
+</table>
+
+<!-- ============================================================ -->
+<!-- SERVICE 1: CNC TURNING -->
+<!-- ============================================================ -->
+<h2 id="s1">⚙️ SERVICE 1: CNC TURNING (/services/cnc-turning)</h2>
+
+<h3>SEO DATA</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>SEO Title</td><td>CNC Turning Service Thailand | A NEW Engineering, Chonburi</td><td>รับงานกลึง CNC ชลบุรี | เอ นิว เอ็นจิเนียริ่ง</td><td>泰国CNC车削加工服务 | A NEW Engineering 春武里</td><td>タイCNC旋盤加工サービス | A NEW Engineering チョンブリー</td></tr>
+<tr class="revised"><td>Meta Description</td><td>Precision CNC turning services in Si Racha, Chonburi, Thailand. Shafts, bushings, flanges, pins &amp; custom turned parts. Mazak, OKUMA &amp; Takisawa lathes. Contact us for a quotation.</td><td>บริการกลึง CNC ความแม่นยำสูง ศรีราชา ชลบุรี รับงานเพลา บุช แฟลนจ์ พิน และชิ้นส่วนกลึงตามแบบ เครื่อง Mazak OKUMA Takisawa ติดต่อเราเพื่อขอใบเสนอราคา</td><td>泰国春武里府西拉差精密CNC车削服务。轴类、衬套、法兰、销类及定制车削零件。配备Mazak、OKUMA及Takisawa车床。欢迎联系我们获取报价。</td><td>タイ チョンブリー県シーラーチャーの精密CNC旋盤加工サービス。シャフト・ブッシュ・フランジ・ピン・カスタム旋削部品。Mazak・OKUMA・Takisawa旋盤使用。お見積はお問い合わせください。</td></tr>
+</table>
+
+<h3>PAGE HERO</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>H1 Headline</td><td>CNC Turning Service</td><td>บริการกลึง CNC</td><td>CNC车削加工服务</td><td>CNC旋盤加工サービス</td></tr>
+<tr><td>Subheadline</td><td>High-precision lathe machining for cylindrical, conical, and complex rotational components</td><td>งานกลึงด้วยเครื่อง CNC ความแม่นยำสูงสำหรับชิ้นส่วนทรงกระบอก ทรงกรวย และชิ้นส่วนหมุนที่ซับซ้อน</td><td>高精度车床加工，适用于圆柱形、锥形及复杂旋转类零件</td><td>円筒形・円錐形・複雑な回転体部品のための高精度旋盤加工</td></tr>
+</table>
+
+<h3>WHAT IS CNC TURNING — DESCRIPTION</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>Section Title</td><td>What Is CNC Turning?</td><td>งานกลึง CNC คืออะไร?</td><td>什么是CNC车削？</td><td>CNC旋盤加工とは？</td></tr>
+<tr><td>Body</td><td>CNC turning is a subtractive machining process in which a computer-controlled lathe rotates the workpiece while a cutting tool removes material to produce precise cylindrical, conical, and profiled forms. At A NEW Engineering, our CNC turning service is performed on a range of high-precision lathes — including the Mazak Nexus 150 II, OKUMA LB-15, Takisawa TAL-460, YDPM SL-200, and Mazak Junior — enabling us to produce turned components from small precision pins to larger shafts and flanges with consistent dimensional accuracy and excellent surface finish.</td><td>การกลึง CNC เป็นกระบวนการกัดเฉือนลบวัสดุ โดยแท่นกลึงที่ควบคุมด้วยคอมพิวเตอร์จะหมุนชิ้นงานขณะที่เครื่องมือตัดจะกำจัดวัสดุออกเพื่อผลิตรูปทรงกระบอก กรวย และโปรไฟล์ที่แม่นยำ ที่ เอ นิว เอ็นจิเนียริ่ง บริการกลึง CNC ของเราดำเนินการบนแท่นกลึงความแม่นยำสูงหลายรุ่น รวมถึง Mazak Nexus 150 II, OKUMA LB-15, Takisawa TAL-460, YDPM SL-200 และ Mazak Junior ซึ่งช่วยให้เราสามารถผลิตชิ้นส่วนกลึงตั้งแต่พินขนาดเล็กไปจนถึงเพลาและแฟลนจ์ขนาดใหญ่ด้วยความแม่นยำเชิงมิติที่สม่ำเสมอและผิวสำเร็จที่ยอดเยี่ยม</td><td>CNC车削是一种减材制造工艺，由计算机控制的车床旋转工件，同时切削刀具去除材料，以制造精密的圆柱形、锥形及成型轮廓。在A NEW Engineering，我们的CNC车削服务在多台高精度车床上进行——包括Mazak Nexus 150 II、OKUMA LB-15、Takisawa TAL-460、YDPM SL-200及Mazak Junior——使我们能够生产从小型精密销到大型轴类、法兰类零件，具有稳定的尺寸精度和优异的表面光洁度。</td><td>CNC旋盤加工は、コンピューター制御の旋盤がワークを回転させながら切削工具で材料を除去し、精密な円筒形・円錐形・プロファイル形状を製造するサブトラクティブ加工プロセスです。A NEW Engineeringでは、Mazak Nexus 150 II・OKUMA LB-15・Takisawa TAL-460・YDPM SL-200・Mazak Juniorなど複数の高精度旋盤を使用し、小型の精密ピンから大型シャフト・フランジまで、安定した寸法精度と優れた表面仕上げで対応します。</td></tr>
+</table>
+
+<h3>CAPABILITIES &amp; APPLICATIONS</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>Cap. Section Title</td><td>CNC Turning Capabilities</td><td>ความสามารถงานกลึง CNC</td><td>CNC车削加工能力</td><td>CNC旋盤加工能力</td></tr>
+<tr><td>Cap. 1</td><td>External and internal cylindrical turning</td><td>การกลึงทรงกระบอกภายนอกและภายใน</td><td>外圆及内孔车削</td><td>外径・内径円筒旋削</td></tr>
+<tr><td>Cap. 2</td><td>Facing, boring, and grooving operations</td><td>งานปาดหน้า เจาะรู และกลึงร่อง</td><td>端面车削、镗孔及切槽加工</td><td>端面削り・中ぐり・溝入れ加工</td></tr>
+<tr><td>Cap. 3</td><td>Taper turning and conical profiles</td><td>การกลึงเทเปอร์และโปรไฟล์ทรงกรวย</td><td>锥面车削及锥形轮廓加工</td><td>テーパー旋削・円錐形状加工</td></tr>
+<tr><td>Cap. 4</td><td>Threading: metric and imperial standards</td><td>การตัดเกลียว: มาตรฐานเมตริกและอิมพีเรียล</td><td>螺纹加工：公制及英制标准</td><td>ねじ切り：メートル・インチ規格</td></tr>
+<tr><td>Cap. 5</td><td>Complex multi-step OD and ID profiles</td><td>โปรไฟล์ OD และ ID หลายขั้นตอนที่ซับซ้อน</td><td>复杂多台阶外径及内径轮廓加工</td><td>複雑な多段外径・内径プロファイル加工</td></tr>
+<tr><td>Cap. 6</td><td>Knurling and surface texturing</td><td>การทำลายและการตกแต่งพื้นผิว</td><td>滚花及表面纹理加工</td><td>ローレット加工・表面テクスチャ処理</td></tr>
+<tr><td>Materials Title</td><td>Materials Processed</td><td>วัสดุที่รองรับ</td><td>可加工材料</td><td>加工可能材料</td></tr>
+<tr><td>Materials List</td><td>Carbon steel · Stainless steel (SS304, SS316) · Aluminum alloys (6061, 7075) · Brass · Copper · Engineering plastics</td><td>เหล็กคาร์บอน · สแตนเลส (SS304, SS316) · อลูมิเนียมอัลลอย (6061, 7075) · ทองเหลือง · ทองแดง · พลาสติกวิศวกรรม</td><td>碳素钢·不锈钢（SS304、SS316）·铝合金（6061、7075）·黄铜·铜·工程塑料</td><td>炭素鋼・ステンレス鋼（SS304、SS316）・アルミ合金（6061、7075）・真鍮・銅・エンジニアリングプラスチック</td></tr>
+<tr><td>Applications Title</td><td>Typical Applications</td><td>การประยุกต์ใช้งานทั่วไป</td><td>典型应用</td><td>主な適用例</td></tr>
+<tr><td>Applications List</td><td>Shafts · Drive pins · Bushings &amp; bearings · Flanges &amp; couplings · Rollers &amp; pulleys · Spindles · Spacers · Sleeves · Threaded studs &amp; fasteners</td><td>เพลา · พินขับเคลื่อน · บุชและตลับลูกปืน · แฟลนจ์และคัปปลิ้ง · ลูกกลิ้งและรอก · สปินเดิล · สเปเซอร์ · ปลอก · สตั๊ดเกลียวและตัวยึด</td><td>轴类·传动销·衬套及轴承·法兰及联轴器·滚轮及皮带轮·主轴·垫圈·套筒·螺柱及紧固件</td><td>シャフト・駆動ピン・ブッシュ&amp;ベアリング・フランジ&amp;カップリング・ローラー&amp;プーリー・スピンドル・スペーサー・スリーブ・スタッドボルト&amp;締結部品</td></tr>
+<tr><td>Industries Title</td><td>Industries Served</td><td>อุตสาหกรรมที่ให้บริการ</td><td>服务行业</td><td>対応業種</td></tr>
+<tr><td>Industries List</td><td>Automotive · Industrial machinery · Automation &amp; robotics · Packaging equipment · Food processing · General manufacturing</td><td>ยานยนต์ · เครื่องจักรอุตสาหกรรม · ระบบอัตโนมัติและหุ่นยนต์ · เครื่องจักรบรรจุภัณฑ์ · แปรรูปอาหาร · การผลิตทั่วไป</td><td>汽车·工业机械·自动化与机器人·包装设备·食品加工·通用制造</td><td>自動車・産業機械・オートメーション&amp;ロボット・包装設備・食品加工・一般製造</td></tr>
+</table>
+
+<!-- ============================================================ -->
+<!-- SERVICE 2: CNC MILLING -->
+<!-- ============================================================ -->
+<h2 id="s2">⚙️ SERVICE 2: CNC MILLING (/services/cnc-milling)</h2>
+
+<h3>SEO DATA</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>SEO Title</td><td>CNC Milling Service Thailand | A NEW Engineering, Chonburi</td><td>รับงานกัด CNC ชลบุรี | เอ นิว เอ็นจิเนียริ่ง</td><td>泰国CNC铣削加工服务 | A NEW Engineering 春武里</td><td>タイCNCフライス加工サービス | A NEW Engineering チョンブリー</td></tr>
+<tr class="revised"><td>Meta Description</td><td>Precision CNC milling services in Si Racha, Chonburi, Thailand. Brackets, housings, plates, mold bases &amp; complex 3D profiles. ROKU ROKU, Enshu &amp; OKK machining centers. Contact us for a quotation.</td><td>บริการกัด CNC ความแม่นยำสูง ศรีราชา ชลบุรี รับงานแบร็กเก็ต เฮาซิ่ง แผ่น เบสแม่พิมพ์ และโปรไฟล์ 3D ที่ซับซ้อน เครื่อง ROKU ROKU, Enshu, OKK ติดต่อเราเพื่อขอใบเสนอราคา</td><td>泰国春武里府西拉差精密CNC铣削服务。支架、壳体、板件、模座及复杂三维轮廓。ROKU ROKU、Enshu及OKK加工中心。欢迎联系我们获取报价。</td><td>タイ チョンブリー精密CNCフライス加工。ブラケット・ハウジング・プレート・モールドベース・複雑3Dプロファイル。ROKU ROKU・Enshu・OKK加工中心使用。お見積はお問い合わせください。</td></tr>
+</table>
+
+<h3>PAGE HERO</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>H1 Headline</td><td>CNC Milling Service</td><td>บริการกัด CNC</td><td>CNC铣削加工服务</td><td>CNCフライス加工サービス</td></tr>
+<tr><td>Subheadline</td><td>Multi-axis precision milling for complex 3D profiles, prismatic parts, and precision flat components</td><td>การกัดความแม่นยำหลายแกนสำหรับโปรไฟล์ 3D ที่ซับซ้อน ชิ้นส่วนปริซึม และชิ้นส่วนแบนที่มีความแม่นยำ</td><td>多轴精密铣削，适用于复杂三维轮廓、棱柱形零件及精密平面零件</td><td>複雑な3Dプロファイル・プリズム形状部品・精密平面部品のための多軸精密フライス加工</td></tr>
+</table>
+
+<h3>DESCRIPTION &amp; CAPABILITIES</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>Section Title</td><td>What Is CNC Milling?</td><td>งานกัด CNC คืออะไร?</td><td>什么是CNC铣削？</td><td>CNCフライス加工とは？</td></tr>
+<tr><td>Body</td><td>CNC milling uses computer-controlled vertical machining centers to remove material from a stationary workpiece using rotating multi-point cutting tools. This process is ideal for producing flat surfaces, pockets, slots, contoured profiles, drilled hole patterns, and complex 3D geometries. Our ROKU ROKU V-1XW, ROKU ROKU RM-2H, Enshu F2, and OKK MH-3V machining centers provide reliable, repeatable accuracy for both simple and complex workpieces across a wide range of materials. CNC milling is the process of choice for manufacturing structural components, mechanical housings, machine bases, mold components, and precision fixtures.</td><td>การกัด CNC ใช้เครื่องกัดแนวตั้งที่ควบคุมด้วยคอมพิวเตอร์เพื่อกำจัดวัสดุออกจากชิ้นงานที่อยู่นิ่งโดยใช้เครื่องมือตัดหลายจุดที่หมุน กระบวนการนี้เหมาะสำหรับการผลิตพื้นผิวเรียบ ช่องว่าง ร่อง โปรไฟล์เส้นโค้ง รูปแบบรูเจาะ และรูปทรง 3D ที่ซับซ้อน เครื่องกัด ROKU ROKU V-1XW, ROKU ROKU RM-2H, Enshu F2 และ OKK MH-3V ของเราให้ความแม่นยำที่เชื่อถือได้และซ้ำได้สำหรับชิ้นงานทั้งง่ายและซับซ้อนในวัสดุหลากหลายชนิด</td><td>CNC铣削使用计算机控制的立式加工中心，通过旋转多刃刀具在固定工件上去除材料。该工艺适用于生产平面、凹腔、槽、轮廓型面、钻孔阵列及复杂三维几何形状。我们的ROKU ROKU V-1XW、ROKU ROKU RM-2H、Enshu F2及OKK MH-3V加工中心，为各类材料的简单及复杂工件提供可靠、可重复的加工精度。</td><td>CNCフライス加工は、コンピューター制御の立型マシニングセンターが回転多刃工具を使用して固定されたワークから材料を除去するプロセスです。平面・ポケット・溝・輪郭プロファイル・穴あけパターン・複雑な3D形状の製造に最適です。ROKU ROKU V-1XW・RM-2H・Enshu F2・OKK MH-3Vにより、単純から複雑なワークまで幅広い材料で信頼性の高い繰り返し精度を実現します。</td></tr>
+<tr><td>Cap. 1</td><td>Flat surface milling and face milling</td><td>การกัดพื้นผิวราบและปาดหน้า</td><td>平面铣削及端面铣削</td><td>平面フライス・面削り</td></tr>
+<tr><td>Cap. 2</td><td>Pocket milling, slot milling, and profile milling</td><td>การกัดช่องว่าง ร่อง และโปรไฟล์</td><td>凹腔铣削、槽铣削及轮廓铣削</td><td>ポケット加工・溝加工・プロファイル加工</td></tr>
+<tr><td>Cap. 3</td><td>Drilling, reaming, tapping, and counterboring</td><td>การเจาะรู รีมเมอร์ ต๊าปเกลียว และคว้านเจาะ</td><td>钻孔、铰孔、攻丝及锪孔加工</td><td>ドリル・リーマー・タップ・座ぐり加工</td></tr>
+<tr><td>Cap. 4</td><td>Complex 3D surface contouring</td><td>การกัดพื้นผิว 3D ที่ซับซ้อน</td><td>复杂三维曲面轮廓加工</td><td>複雑な3D曲面輪郭加工</td></tr>
+<tr><td>Cap. 5</td><td>Angular and chamfer milling</td><td>การกัดมุมและการเจาะมุม</td><td>斜面铣削及倒角加工</td><td>アングルフライス・面取り加工</td></tr>
+<tr><td>Applications List</td><td>Mechanical brackets &amp; structural frames · Housing &amp; covers · Mold bases &amp; mold components · Machine beds &amp; bases · Precision plates &amp; manifolds · Gear blanks · Fixture bodies · Cam profiles</td><td>แบร็กเก็ตและโครงสร้าง · เฮาซิ่งและฝาครอบ · เบสแม่พิมพ์และชิ้นส่วน · ฐานเครื่องจักร · แผ่นและแมนิโฟลด์ · เฟืองเปล่า · ตัวฟิกซ์เจอร์ · โปรไฟล์กาม</td><td>机械支架及结构框架·壳体及盖板·模座及模具零件·机床床身及底座·精密板件及集流管·齿轮毛坯·夹具体·凸轮轮廓</td><td>機械ブラケット・構造フレーム・ハウジング・カバー・モールドベース・モールド部品・機械ベッド・精密プレート・マニホールド・ギアブランク・治具本体・カムプロファイル</td></tr>
+</table>
+
+<!-- ============================================================ -->
+<!-- SERVICE 3: SURFACE GRINDING -->
+<!-- ============================================================ -->
+<h2 id="s3">⚙️ SERVICE 3: SURFACE GRINDING (/services/surface-grinding)</h2>
+
+<h3>SEO DATA</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>SEO Title</td><td>Surface Grinding Service Thailand | A NEW Engineering, Chonburi</td><td>รับงานเจียรพื้นผิว ชลบุรี | เอ นิว เอ็นจิเนียริ่ง</td><td>泰国平面磨削加工服务 | A NEW Engineering 春武里</td><td>タイ平面研削加工サービス | A NEW Engineering チョンブリー</td></tr>
+<tr class="revised"><td>Meta Description</td><td>Precision surface grinding in Si Racha, Chonburi, Thailand. Tight-tolerance flat surface finishing using Jones &amp; Shipman 450P. Tool steel, hardened steel, stainless. Contact us for a quotation.</td><td>บริการเจียรพื้นผิวความแม่นยำสูง ศรีราชา ชลบุรี ตกแต่งพื้นผิวราบด้วย Jones &amp; Shipman 450P เหล็กเครื่องมือ เหล็กชุบแข็ง สแตนเลส ติดต่อเราเพื่อขอใบเสนอราคา</td><td>泰国春武里府西拉差精密平面磨削服务。使用Jones &amp; Shipman 450P进行高精度平面精加工。工具钢、淬硬钢、不锈钢。欢迎联系我们获取报价。</td><td>タイ チョンブリー精密平面研削。Jones &amp; Shipman 450Pによる厳密公差平面仕上げ。工具鋼・焼入れ鋼・ステンレス鋼対応。お見積はお問い合わせください。</td></tr>
+</table>
+
+<h3>PAGE HERO &amp; DESCRIPTION</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>H1 Headline</td><td>Surface Grinding Service</td><td>บริการเจียรพื้นผิว</td><td>平面磨削加工服务</td><td>平面研削加工サービス</td></tr>
+<tr><td>Subheadline</td><td>Precision flat surface finishing to tight dimensional tolerances and superior surface quality</td><td>การตกแต่งพื้นผิวราบความแม่นยำสูงด้วยความคลาดเคลื่อนเชิงมิติที่เข้มงวดและคุณภาพพื้นผิวที่เหนือกว่า</td><td>高精度平面精加工，尺寸公差严格，表面质量卓越</td><td>厳しい寸法公差と優れた表面品質のための精密平面仕上げ</td></tr>
+<tr><td>Section Title</td><td>What Is Surface Grinding?</td><td>การเจียรพื้นผิวคืออะไร?</td><td>什么是平面磨削？</td><td>平面研削とは？</td></tr>
+<tr><td>Body</td><td>Surface grinding is a precision finishing operation that uses an abrasive grinding wheel to produce exceptionally flat, smooth surfaces with tight dimensional tolerances that turning and milling alone cannot achieve. At A NEW Engineering, our Jones &amp; Shipman 450P precision surface grinder is used as a final finishing operation on components requiring precise parallelism, flatness, and surface roughness specifications. Surface grinding is typically applied to jig and fixture components, mold plates, hardened tool steel parts, guide rails, and any component where precise flatness and surface finish are critical to function.</td><td>การเจียรพื้นผิวเป็นการดำเนินการตกแต่งความแม่นยำที่ใช้ล้อเจียรเพื่อผลิตพื้นผิวที่ราบและเรียบอย่างยอดเยี่ยมด้วยความคลาดเคลื่อนเชิงมิติที่เข้มงวด ซึ่งการกลึงและการกัดเพียงอย่างเดียวไม่สามารถทำได้ ที่ เอ นิว เอ็นจิเนียริ่ง เครื่องเจียรพื้นผิว Jones &amp; Shipman 450P ของเราใช้เป็นการดำเนินการตกแต่งขั้นสุดท้ายสำหรับชิ้นส่วนที่ต้องการความขนาน ความราบ และข้อกำหนดความหยาบพื้นผิวที่แม่นยำ</td><td>平面磨削是一种精密精加工工艺，使用砂轮磨削工件，生产出尺寸公差严格、极为平整光滑的表面——这是车削和铣削单独无法达到的精度。在A NEW Engineering，我们的Jones &amp; Shipman 450P精密平面磨床作为最终精加工工序，用于需要精确平行度、平面度及表面粗糙度要求的零件。</td><td>平面研削は砥石砥輪を使用して、旋削やフライス加工だけでは達成できない厳密な寸法公差で極めて平坦で滑らかな面を生み出す精密仕上げ加工です。A NEW Engineeringでは、Jones &amp; Shipman 450P精密平面研削盤を最終仕上げ工程として使用し、精確な平行度・平面度・表面粗さが求められる部品に対応します。</td></tr>
+<tr><td>Applications List</td><td>Jig &amp; fixture plates and bodies · Hardened tool steel components · Precision mold plates · Guide rails and wear pads · Gauge and inspection components · Machine slideways · Any component requiring precise flatness and surface finish Ra specification</td><td>แผ่นและตัวจิ๊กและฟิกซ์เจอร์ · ชิ้นส่วนเหล็กเครื่องมือชุบแข็ง · แผ่นแม่พิมพ์ความแม่นยำ · รางนำและแผ่นสึกหรอ · ชิ้นส่วนเกจและการตรวจสอบ · รางเลื่อนเครื่องจักร · ชิ้นส่วนใดๆ ที่ต้องการความราบและข้อกำหนด Ra ของพื้นผิว</td><td>夹具板及夹具体·淬硬工具钢零件·精密模板·导轨及耐磨垫板·量具及检测零件·机床导轨面·任何需要精确平面度及表面粗糙度Ra值要求的零件</td><td>治具プレート・治具本体・焼入れ工具鋼部品・精密モールドプレート・ガイドレール・ウェアパッド・ゲージ・検査部品・機械スライドウェイ・精確な平面度・表面粗さRa指定が必要なあらゆる部品</td></tr>
+</table>
+
+<!-- ============================================================ -->
+<!-- SERVICE 4: JIG & FIXTURE -->
+<!-- ============================================================ -->
+<h2 id="s4">⚙️ SERVICE 4: JIG &amp; FIXTURE MANUFACTURING (/services/jig-fixture)</h2>
+
+<h3>SEO DATA</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>SEO Title</td><td>Jig &amp; Fixture Manufacturing Thailand | A NEW Engineering</td><td>รับผลิตจิ๊กและฟิกซ์เจอร์ ไทย | เอ นิว เอ็นจิเนียริ่ง</td><td>泰国夹具制造 | A NEW Engineering</td><td>タイ治具・フィクスチャー製造 | A NEW Engineering</td></tr>
+<tr class="revised"><td>Meta Description</td><td>Custom jig &amp; fixture manufacturing in Si Racha, Chonburi, Thailand. Drill jigs, welding fixtures, assembly &amp; inspection fixtures for automotive, packaging &amp; manufacturing. Contact us for a quotation.</td><td>รับผลิตจิ๊กและฟิกซ์เจอร์ตามสั่ง ศรีราชา ชลบุรี จิ๊กเจาะ ฟิกซ์เจอร์เชื่อม ฟิกซ์เจอร์ประกอบและตรวจสอบ ยานยนต์ บรรจุภัณฑ์ ติดต่อเราเพื่อขอใบเสนอราคา</td><td>泰国春武里府西拉差定制夹具制造。钻削夹具、焊接夹具、装配及检验夹具，服务汽车、包装及制造行业。欢迎联系我们获取报价。</td><td>タイ チョンブリーカスタム治具・フィクスチャー製造。ドリル治具・溶接治具・組立・検査治具。自動車・包装・製造業向け。お見積はお問い合わせください。</td></tr>
+</table>
+
+<h3>PAGE HERO &amp; DESCRIPTION</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>H1 Headline</td><td>Jig &amp; Fixture Manufacturing</td><td>ผลิตจิ๊กและฟิกซ์เจอร์</td><td>夹具制造</td><td>治具・フィクスチャー製造</td></tr>
+<tr><td>Subheadline</td><td>Custom precision tooling that improves your manufacturing accuracy, consistency, and production efficiency</td><td>เครื่องมือความแม่นยำแบบกำหนดเองที่ช่วยเพิ่มความแม่นยำในการผลิต ความสม่ำเสมอ และประสิทธิภาพการผลิตของคุณ</td><td>定制精密工装，提升您的制造精度、一致性和生产效率</td><td>お客様の製造精度・一貫性・生産効率を向上させるカスタム精密治工具</td></tr>
+<tr><td>Section Title</td><td>What Are Jigs and Fixtures?</td><td>จิ๊กและฟิกซ์เจอร์คืออะไร?</td><td>什么是夹具？</td><td>治具・フィクスチャーとは？</td></tr>
+<tr><td>Body</td><td>Jigs and fixtures are custom-made precision tooling used to hold, locate, guide, and support workpieces during machining, welding, assembly, or inspection operations. A well-designed jig or fixture reduces setup time, eliminates operator error, improves part-to-part consistency, and increases overall production throughput. At A NEW Engineering, our experienced toolmakers design and manufacture complete jig and fixture sets using our in-house CNC turning, CNC milling, surface grinding, and manual machining capabilities. We produce tooling ready for immediate deployment on your production line.</td><td>จิ๊กและฟิกซ์เจอร์เป็นเครื่องมือความแม่นยำที่ผลิตตามสั่งสำหรับยึด กำหนดตำแหน่ง นำทาง และรองรับชิ้นงานระหว่างการกลึง เชื่อม ประกอบ หรือตรวจสอบ จิ๊กหรือฟิกซ์เจอร์ที่ออกแบบอย่างดีจะลดเวลาการตั้งค่า ขจัดข้อผิดพลาดของผู้ปฏิบัติงาน ปรับปรุงความสม่ำเสมอระหว่างชิ้นส่วน และเพิ่มปริมาณการผลิตโดยรวม</td><td>夹具是定制的精密工装，用于在机加工、焊接、装配或检验过程中固定、定位、引导和支撑工件。设计良好的夹具可缩短调机时间、消除操作员误差、提高零件一致性并提升整体生产效率。在A NEW Engineering，我们经验丰富的工具制造师利用自有的CNC车削、铣削、磨削及手动加工能力，设计和制造完整的夹具套件。</td><td>治具・フィクスチャーは、機械加工・溶接・組立・検査工程でワークを保持・位置決め・誘導・支持するためのカスタム精密工具です。適切に設計された治具はセットアップ時間を短縮し、作業者ミスをなくし、部品間の一貫性を高め、全体的な生産性を向上させます。A NEW Engineeringでは、自社CNC旋削・フライス・研削・手動加工能力を活用し、製造ラインにすぐ導入できる治具セットを設計・製造します。</td></tr>
+<tr><td>Types Title</td><td>Types of Jigs &amp; Fixtures We Manufacture</td><td>ประเภทของจิ๊กและฟิกซ์เจอร์ที่เราผลิต</td><td>我们制造的夹具类型</td><td>製造する治具・フィクスチャーの種類</td></tr>
+<tr><td>Type 1</td><td>Drill jigs — for accurate hole location during drilling operations</td><td>จิ๊กเจาะรู — สำหรับการกำหนดตำแหน่งรูที่ถูกต้องระหว่างการเจาะ</td><td>钻削夹具——用于钻削加工时精确确定孔位</td><td>ドリル治具 — 穴あけ加工での正確な穴位置決め</td></tr>
+<tr><td>Type 2</td><td>Welding fixtures — for consistent part positioning during welding</td><td>ฟิกซ์เจอร์เชื่อม — สำหรับการกำหนดตำแหน่งชิ้นส่วนที่สม่ำเสมอระหว่างการเชื่อม</td><td>焊接夹具——用于焊接过程中一致的零件定位</td><td>溶接治具 — 溶接時の一貫した部品位置決め</td></tr>
+<tr><td>Type 3</td><td>Assembly fixtures — for repeatable positioning during assembly operations</td><td>ฟิกซ์เจอร์ประกอบ — สำหรับการวางตำแหน่งซ้ำในระหว่างการประกอบ</td><td>装配夹具——用于装配工序中的可重复定位</td><td>組立治具 — 組立工程での繰り返し位置決め</td></tr>
+<tr><td>Type 4</td><td>Checking &amp; inspection fixtures — for dimensional verification of completed parts</td><td>ฟิกซ์เจอร์ตรวจสอบ — สำหรับการตรวจสอบขนาดของชิ้นส่วนที่เสร็จสมบูรณ์</td><td>检验夹具——用于已完工零件的尺寸检验</td><td>検査治具 — 完成部品の寸法確認</td></tr>
+<tr><td>Type 5</td><td>Machining fixtures — for workholding during CNC turning and milling</td><td>ฟิกซ์เจอร์กลึงกัด — สำหรับการยึดชิ้นงานระหว่างการกลึงและกัด CNC</td><td>机加工夹具——用于CNC车削和铣削时的工件装夹</td><td>機械加工治具 — CNC旋削・フライス加工時のワーク保持</td></tr>
+</table>
+
+<!-- ============================================================ -->
+<!-- SERVICE 5: SANDBLASTING -->
+<!-- ============================================================ -->
+<h2 id="s5">⚙️ SERVICE 5: SANDBLASTING (/services/sandblasting)</h2>
+
+<h3>SEO DATA</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>SEO Title</td><td>Sandblasting Service Thailand | A NEW Engineering, Chonburi</td><td>รับงานพ่นทราย ชลบุรี | เอ นิว เอ็นจิเนียริ่ง</td><td>泰国喷砂处理服务 | A NEW Engineering 春武里</td><td>タイ サンドブラストサービス | A NEW Engineering チョンブリー</td></tr>
+<tr class="revised"><td>Meta Description</td><td>Professional sandblasting services in Si Racha, Chonburi. Surface preparation, rust removal, scale removal &amp; pre-coating treatment for steel &amp; metal parts. Contact us for a quotation.</td><td>บริการพ่นทรายมืออาชีพ ศรีราชา ชลบุรี เตรียมพื้นผิว ขจัดสนิม ขจัดสเกล และการบำบัดก่อนเคลือบสำหรับชิ้นส่วนเหล็กและโลหะ ติดต่อเราเพื่อขอใบเสนอราคา</td><td>泰国春武里府西拉差专业喷砂服务。钢铁及金属零件表面处理、除锈、除氧化皮及涂装前预处理。欢迎联系我们获取报价。</td><td>タイ チョンブリー専門サンドブラストサービス。鋼鉄・金属部品の表面処理・錆除去・スケール除去・塗装前処理。お見積はお問い合わせください。</td></tr>
+</table>
+
+<h3>PAGE HERO &amp; DESCRIPTION</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>H1 Headline</td><td>Sandblasting Service</td><td>บริการพ่นทราย</td><td>喷砂处理服务</td><td>サンドブラストサービス</td></tr>
+<tr><td>Subheadline</td><td>Professional abrasive blasting for surface preparation, rust removal, scale removal, and pre-coating treatment</td><td>การพ่นทรายมืออาชีพสำหรับการเตรียมพื้นผิว ขจัดสนิม ขจัดสเกล และการบำบัดก่อนเคลือบ</td><td>专业喷砂处理，用于表面预处理、除锈、除氧化皮及涂装前处理</td><td>表面処理・錆除去・スケール除去・塗装前処理のためのプロフェッショナルサンドブラスト</td></tr>
+<tr><td>Section Title</td><td>What Is Sandblasting?</td><td>การพ่นทรายคืออะไร?</td><td>什么是喷砂？</td><td>サンドブラストとは？</td></tr>
+<tr><td>Body</td><td>Sandblasting — also known as abrasive blasting — is a surface treatment process in which abrasive media (such as steel grit, aluminum oxide, or glass bead) is propelled at high pressure against the surface of a metal component. This process effectively removes rust, mill scale, old paint, welding slag, and surface contaminants, leaving a clean, profiled surface that is ready for painting, powder coating, plating, or further surface treatment. At A NEW Engineering, our sandblasting service is used by clients across the automotive, manufacturing, and industrial maintenance sectors to prepare metal parts for downstream coating processes, as well as for cosmetic surface finishing and restoration of used components.</td><td>การพ่นทราย หรือที่เรียกว่าการพ่นสารขัดถู เป็นกระบวนการบำบัดพื้นผิวที่สื่อกัดถู (เช่น เม็ดเหล็ก อลูมิเนียมออกไซด์ หรือเม็ดแก้ว) ถูกพ่นด้วยแรงดันสูงลงบนพื้นผิวของชิ้นส่วนโลหะ กระบวนการนี้ขจัดสนิม สเกล สีเก่า ตะกรันเชื่อม และสิ่งปนเปื้อนบนพื้นผิวได้อย่างมีประสิทธิภาพ ทิ้งพื้นผิวที่สะอาดและมีโปรไฟล์ที่พร้อมสำหรับการทาสี การเคลือบผง การชุบ หรือการบำบัดพื้นผิวเพิ่มเติม</td><td>喷砂（又称磨料喷射处理）是一种表面处理工艺，将磨料介质（如钢砂、氧化铝或玻璃珠）以高压喷射到金属零件表面。该工艺能有效去除锈蚀、氧化皮、旧漆、焊接飞溅及表面污染物，留下清洁、具有一定粗糙度轮廓的表面，以便进行喷漆、粉末涂装、电镀或进一步的表面处理。</td><td>サンドブラスト（アブレーシブブラスト）は、砥粒メディア（スチールグリット・アルミナ・ガラスビードなど）を高圧で金属部品の表面に噴射する表面処理プロセスです。錆・ミルスケール・旧塗装・溶接スラグ・表面汚染物を効果的に除去し、塗装・粉体塗装・めっき・後続処理に適したクリーンな粗面を形成します。</td></tr>
+<tr><td>Applications Title</td><td>Common Applications</td><td>การประยุกต์ใช้งานทั่วไป</td><td>常见应用</td><td>主な用途</td></tr>
+<tr><td>App. 1</td><td>Pre-painting and pre-coating surface preparation</td><td>การเตรียมพื้นผิวก่อนทาสีและก่อนเคลือบ</td><td>涂装及涂层前的表面预处理</td><td>塗装・コーティング前の表面前処理</td></tr>
+<tr><td>App. 2</td><td>Rust and corrosion removal from steel components</td><td>การขจัดสนิมและการกัดกร่อนจากชิ้นส่วนเหล็ก</td><td>钢铁零件除锈及去腐蚀</td><td>鋼部品の錆・腐食除去</td></tr>
+<tr><td>App. 3</td><td>Mill scale and oxide removal from welded fabrications</td><td>การขจัดสเกลและออกไซด์จากงานเชื่อม</td><td>焊接件氧化皮及氧化层去除</td><td>溶接構造物のミルスケール・酸化膜除去</td></tr>
+<tr><td>App. 4</td><td>Surface texturing for improved paint or adhesive adhesion</td><td>การปรับพื้นผิวเพื่อให้สีหรือกาวยึดเกาะได้ดีขึ้น</td><td>表面纹理处理，提升涂料或粘合剂附着力</td><td>塗料・接着剤の密着性向上のための表面テクスチャ処理</td></tr>
+<tr><td>App. 5</td><td>Cosmetic surface restoration and refurbishment of used parts</td><td>การบูรณะพื้นผิวเพื่อความสวยงามและการปรับปรุงชิ้นส่วนที่ใช้แล้ว</td><td>已用零件的外观表面修复与翻新</td><td>使用済み部品の美観表面修復・再生</td></tr>
+</table>
+
+<!-- ============================================================ -->
+<!-- SERVICE 6: CUSTOM MANUFACTURING -->
+<!-- ============================================================ -->
+<h2 id="s6">⚙️ SERVICE 6: CUSTOM MANUFACTURING (/services/custom-manufacturing)</h2>
+
+<h3>SEO DATA</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>SEO Title</td><td>Custom Part Manufacturing Thailand | A NEW Engineering, Chonburi</td><td>รับผลิตชิ้นส่วนตามแบบ ไทย | เอ นิว เอ็นจิเนียริ่ง</td><td>泰国定制零件制造 | A NEW Engineering 春武里</td><td>タイ カスタム部品製造 | A NEW Engineering チョンブリー</td></tr>
+<tr class="revised"><td>Meta Description</td><td>Custom precision part manufacturing from drawings or samples in Si Racha, Chonburi. Prototype to production. CNC turning, milling, grinding combined in one job. Contact us for a quotation.</td><td>รับผลิตชิ้นส่วนความแม่นยำตามแบบหรือตัวอย่าง ศรีราชา ชลบุรี ต้นแบบถึงการผลิต รวมกลึง กัด เจียร ในงานเดียว ติดต่อเราเพื่อขอใบเสนอราคา</td><td>泰国春武里府西拉差按图纸或样品定制精密零件。从原型到量产。车削、铣削、磨削组合一站式完成。欢迎联系我们获取报价。</td><td>タイ チョンブリー図面またはサンプルからカスタム精密部品製造。試作から量産まで。旋削・フライス・研削を1案件で一貫対応。お見積はお問い合わせください。</td></tr>
+</table>
+
+<h3>PAGE HERO &amp; DESCRIPTION</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>H1 Headline</td><td>Custom Part Manufacturing</td><td>ผลิตชิ้นส่วนตามแบบ</td><td>定制零件制造</td><td>カスタム部品製造</td></tr>
+<tr><td>Subheadline</td><td>Precision parts manufactured to your exact specifications — from single prototypes to recurring production batches</td><td>ชิ้นส่วนความแม่นยำที่ผลิตตามข้อกำหนดของคุณอย่างแม่นยำ — ตั้งแต่ต้นแบบชิ้นเดียวถึงการผลิตชุดซ้ำ</td><td>按您的精确规格制造精密零件——从单件原型到批量重复生产</td><td>お客様の仕様通りに精密部品を製造 — 単品試作から繰り返し量産まで</td></tr>
+<tr><td>Body</td><td>A NEW Engineering specializes in the custom manufacturing of precision parts from client-supplied technical drawings, CAD files, sample components, or detailed written specifications. Our experienced team of CNC programmers and machinists reviews each job thoroughly — selecting the optimal machining process, material, tooling, and work sequence to meet your dimensional, surface finish, and material specifications within your required lead time. We handle one-off prototype work, short-run batches, and recurring production orders with equal attention to quality and detail. For complex jobs requiring multiple processes, we manage the complete machining workflow in-house — combining CNC turning, CNC milling, surface grinding, and sandblasting in a single coordinated production run.</td><td>เอ นิว เอ็นจิเนียริ่ง เชี่ยวชาญในการผลิตชิ้นส่วนความแม่นยำแบบกำหนดเองจากแบบทางเทคนิค ไฟล์ CAD ชิ้นส่วนตัวอย่าง หรือข้อกำหนดที่เขียนอย่างละเอียดที่ลูกค้าจัดหา ทีมโปรแกรมเมอร์และช่างกลึง CNC ที่มีประสบการณ์ของเราตรวจสอบแต่ละงานอย่างละเอียด — เลือกกระบวนการกลึงที่เหมาะสมที่สุด วัสดุ เครื่องมือ และลำดับการทำงาน เพื่อให้ตรงตามข้อกำหนดเชิงมิติ พื้นผิว และวัสดุของคุณภายในระยะเวลาที่กำหนด</td><td>A NEW Engineering专注于根据客户提供的技术图纸、CAD文件、样品零件或详细书面规格定制生产精密零件。我们经验丰富的CNC编程人员和技工对每个订单进行全面审查——选择最优的加工工艺、材料、刀具及工序，在您要求的交货期内满足尺寸、表面质量和材料规格要求。我们对单件原型、小批量及重复生产订单给予同等的质量和细节关注。</td><td>A NEW Engineeringは、お客様提供の技術図面・CADファイル・サンプル部品・詳細仕様書に基づいたカスタム精密部品製造を専門とします。経験豊富なCNCプログラマーと技術者が各案件を綿密に検討し、最適な加工プロセス・材料・工具・工程順序を選定して、お客様の寸法・表面仕上げ・材料仕様を指定リードタイム内に満たします。</td></tr>
+<tr><td>Process Step 1</td><td>Submit your drawing, CAD file, or sample</td><td>ส่งแบบ ไฟล์ CAD หรือตัวอย่างของคุณ</td><td>提交图纸、CAD文件或样品</td><td>図面・CADファイル・サンプルを送付</td></tr>
+<tr class="revised"><td>Process Step 2</td><td>We review technical requirements and prepare a quotation — our team will confirm timing upon receipt of your enquiry</td><td>เราตรวจสอบข้อกำหนดทางเทคนิคและจัดทำใบเสนอราคา — ทีมงานของเราจะยืนยันระยะเวลาเมื่อได้รับการสอบถามของคุณ</td><td>我们审核技术要求并准备报价——收到询价后，我们的团队将与您确认具体安排</td><td>技術要件を確認し見積を作成します——お問い合わせ受領後、担当チームより対応タイミングをご連絡します</td></tr>
+<tr><td>Process Step 3</td><td>Approval and production begins — regular updates provided</td><td>ได้รับการอนุมัติและเริ่มผลิต — มีการอัปเดตสม่ำเสมอ</td><td>批准后开始生产——定期提供进度更新</td><td>承認後、生産開始 — 定期的な進捗報告</td></tr>
+<tr><td>Process Step 4</td><td>Final inspection and delivery to your facility or logistics partner</td><td>การตรวจสอบขั้นสุดท้ายและส่งมอบถึงโรงงานหรือพันธมิตรโลจิสติกส์ของคุณ</td><td>最终检验并交付至您的工厂或物流合作伙伴</td><td>最終検査後、お客様工場または物流パートナーへ納品</td></tr>
+</table>
+
+<!-- ============================================================ -->
+<!-- SERVICE 7: REVERSE ENGINEERING -->
+<!-- ============================================================ -->
+<h2 id="s7">⚙️ SERVICE 7: REVERSE ENGINEERING (/services/reverse-engineering)</h2>
+
+<h3>SEO DATA</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>SEO Title</td><td>Reverse Engineering Service Thailand | A NEW Engineering</td><td>รับงานวิศวกรรมย้อนกลับ ไทย | เอ นิว เอ็นจิเนียริ่ง</td><td>泰国逆向工程服务 | A NEW Engineering</td><td>タイ リバースエンジニアリングサービス | A NEW Engineering</td></tr>
+<tr class="revised"><td>Meta Description</td><td>Reverse engineering and spare part reproduction in Chonburi, Thailand. No drawing needed — send your sample. Obsolete &amp; discontinued parts for industrial machinery. Contact us for a quotation.</td><td>วิศวกรรมย้อนกลับและผลิตอะไหล่ทดแทน ชลบุรี ไม่ต้องใช้แบบ — ส่งตัวอย่างมาเลย ชิ้นส่วนที่เลิกผลิตแล้วสำหรับเครื่องจักรอุตสาหกรรม ติดต่อเราเพื่อขอใบเสนอราคา</td><td>泰国春武里逆向工程及备件复制服务。无需图纸，发来样品即可。工业机械停产及过时零件复制。欢迎联系我们获取报价。</td><td>タイ チョンブリーリバースエンジニアリング・スペアパーツ複製。図面不要 — サンプルを送るだけ。産業機械の廃番・生産終了部品対応。お見積はお問い合わせください。</td></tr>
+</table>
+
+<h3>PAGE HERO &amp; DESCRIPTION</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr><td>H1 Headline</td><td>Reverse Engineering Service</td><td>บริการวิศวกรรมย้อนกลับ</td><td>逆向工程服务</td><td>リバースエンジニアリングサービス</td></tr>
+<tr><td>Subheadline</td><td>Reproduce obsolete, discontinued, or unavailable spare parts from physical samples — no technical drawing required</td><td>ผลิตชิ้นส่วนที่ล้าสมัย เลิกผลิต หรือหาไม่ได้จากตัวอย่างจริง — ไม่ต้องใช้แบบทางเทคนิค</td><td>根据实物样品复制过时、停产或无法获取的备件——无需技术图纸</td><td>現物サンプルから廃番・生産終了・入手困難なスペアパーツを再製造 — 技術図面不要</td></tr>
+<tr><td>Section Title</td><td>What Is Reverse Engineering?</td><td>วิศวกรรมย้อนกลับคืออะไร?</td><td>什么是逆向工程？</td><td>リバースエンジニアリングとは？</td></tr>
+<tr><td>Body</td><td>Reverse engineering is the process of analyzing an existing physical component — measuring its dimensions, identifying its material, and understanding its functional requirements — in order to reproduce an equivalent or improved replacement part without the original engineering drawings. At A NEW Engineering, our reverse engineering service is particularly valuable for industrial maintenance teams managing aging production equipment, factories relying on imported spare parts that are no longer available from the original manufacturer, and operations that need a local, cost-effective replacement for expensive OEM components. We carefully measure and document your sample part, select the appropriate material and machining process, and manufacture replacement parts that meet or exceed the original specification.</td><td>วิศวกรรมย้อนกลับคือกระบวนการวิเคราะห์ชิ้นส่วนจริงที่มีอยู่ — วัดขนาด ระบุวัสดุ และทำความเข้าใจข้อกำหนดการทำงาน — เพื่อผลิตชิ้นส่วนทดแทนที่เทียบเท่าหรือดีกว่าโดยไม่ต้องใช้แบบวิศวกรรมดั้งเดิม ที่ เอ นิว เอ็นจิเนียริ่ง บริการวิศวกรรมย้อนกลับของเรามีคุณค่าโดยเฉพาะสำหรับทีมซ่อมบำรุงอุตสาหกรรมที่จัดการอุปกรณ์การผลิตที่มีอายุมาก โรงงานที่พึ่งพาอะไหล่นำเข้าที่ไม่สามารถหาได้จากผู้ผลิตเดิมอีกต่อไป และการดำเนินงานที่ต้องการการทดแทนในท้องถิ่นที่มีต้นทุนต่ำกว่าสำหรับชิ้นส่วน OEM ราคาแพง</td><td>逆向工程是通过分析现有实物零件——测量其尺寸、识别其材料、了解其功能需求——从而在没有原始工程图纸的情况下复制等效或改进的替代零件的过程。在A NEW Engineering，我们的逆向工程服务对以下客户尤具价值：管理老化生产设备的工业维护团队、依赖已从原始制造商处停产进口备件的工厂，以及需要本地性价比更高的OEM替代零件的运营企业。</td><td>リバースエンジニアリングとは、既存の現物部品を分析し——寸法計測・材料特定・機能要件把握——元の工程図面なしに同等または改良した代替部品を再製造するプロセスです。A NEW Engineeringのリバースエンジニアリングサービスは特に、老朽化した生産設備を管理する産業メンテナンスチーム、オリジナルメーカーからの供給が終了した輸入スペアパーツに依存する工場、高価なOEM部品のローカル・コスト効率的な代替品を必要とする企業にとって大きな価値を提供します。</td></tr>
+<tr><td>Process Title</td><td>How Our Reverse Engineering Process Works</td><td>กระบวนการวิศวกรรมย้อนกลับของเราทำงานอย่างไร</td><td>我们的逆向工程流程</td><td>リバースエンジニアリングプロセスの流れ</td></tr>
+<tr><td>Step 1</td><td>Send us your sample component — by courier or drop off at our Si Racha facility</td><td>ส่งตัวอย่างชิ้นส่วนให้เรา — ทางไปรษณีย์หรือนำมาส่งที่โรงงานศรีราชาของเรา</td><td>将样品零件发送给我们——通过快递或直接送至我们的西拉差工厂</td><td>サンプル部品を送付 — 宅配便またはシーラーチャー工場への直接持込</td></tr>
+<tr><td>Step 2</td><td>We carefully measure, document, and analyze the part — material identification, dimensional survey, and feature mapping</td><td>เราวัด บันทึก และวิเคราะห์ชิ้นส่วนอย่างระมัดระวัง — การระบุวัสดุ การสำรวจขนาด และการทำแผนที่คุณลักษณะ</td><td>我们仔细测量、记录并分析零件——材料识别、尺寸测绘及特征标注</td><td>部品を慎重に計測・記録・分析 — 材料特定・寸法調査・フィーチャーマッピング</td></tr>
+<tr><td>Step 3</td><td>We prepare a quotation for reproduction and confirm material selection and lead time</td><td>เราจัดทำใบเสนอราคาสำหรับการผลิตซ้ำและยืนยันการเลือกวัสดุและระยะเวลา</td><td>我们准备复制报价，并确认材料选型及交货期</td><td>複製の見積を作成し、材料選定とリードタイムを確認</td></tr>
+<tr><td>Step 4</td><td>Parts are machined to the documented specification and final-inspected before delivery</td><td>ชิ้นส่วนถูกกลึงตามข้อกำหนดที่บันทึกไว้และตรวจสอบขั้นสุดท้ายก่อนส่งมอบ</td><td>按记录规格加工零件，交货前进行最终检验</td><td>記録された仕様に従って部品を加工し、納品前に最終検査を実施</td></tr>
+<tr><td>Who It Helps Title</td><td>Who Benefits from Reverse Engineering?</td><td>ใครได้รับประโยชน์จากวิศวกรรมย้อนกลับ?</td><td>谁能从逆向工程中受益？</td><td>リバースエンジニアリングで解決できる課題</td></tr>
+<tr><td>Who 1</td><td>Industrial maintenance teams with aging or obsolete production machinery</td><td>ทีมซ่อมบำรุงอุตสาหกรรมที่มีเครื่องจักรการผลิตเก่าหรือล้าสมัย</td><td>拥有老化或过时生产机械的工业维护团队</td><td>老朽化・廃番生産機械を抱える産業メンテナンスチーム</td></tr>
+<tr><td>Who 2</td><td>Factories importing spare parts from manufacturers who have closed or discontinued the product</td><td>โรงงานที่นำเข้าอะไหล่จากผู้ผลิตที่ปิดกิจการหรือเลิกผลิตสินค้า</td><td>从已停产或关闭的制造商进口备件的工厂</td><td>閉業・生産終了したメーカーからスペアパーツを輸入している工場</td></tr>
+<tr><td>Who 3</td><td>Operations seeking a local, cost-effective alternative to expensive imported OEM parts</td><td>การดำเนินงานที่ต้องการทางเลือกในท้องถิ่นที่คุ้มค่าแทนชิ้นส่วน OEM นำเข้าราคาแพง</td><td>寻求以本地产品替代昂贵进口OEM零件的企业</td><td>高価な輸入OEM部品のローカルで費用対効果の高い代替品を求める企業</td></tr>
+</table>
+
+<br>
+<div style="background:#0891B2;color:#fff;padding:12px 16px;border-radius:6px;text-align:center;font-weight:700;">
+  ✅ END OF PART 2 — Continue to Part 3: Machinery + Projects + Careers + Contact/RFQ
+</div>
+
+</body>
+</html>

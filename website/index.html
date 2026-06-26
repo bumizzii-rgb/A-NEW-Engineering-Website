@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO — updated dynamically by app.js setLang() / renderHome() -->
+  <title>Precision CNC Machining Thailand | A NEW Engineering</title>
+  <meta name="description" content="A NEW Engineering offers CNC turning, milling, surface grinding, jig &amp; fixture manufacturing, sandblasting &amp; custom parts in Si Racha, Chonburi. Est. 2007.">
+
+  <!-- Canonical / hreflang -->
+  <link rel="canonical" href="index.html">
+  <link rel="alternate" hreflang="en"      href="index.html">
+  <link rel="alternate" hreflang="th"      href="index.html">
+  <link rel="alternate" hreflang="zh-Hans" href="index.html">
+  <link rel="alternate" hreflang="ja"      href="index.html">
+  <link rel="alternate" hreflang="x-default" href="index.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="Precision CNC Machining Thailand | A NEW Engineering">
+  <meta property="og:description" content="A NEW Engineering — CNC Turning, Milling, Surface Grinding, Jig &amp; Fixture, Sandblasting. Si Racha, Chonburi. Est. 2007.">
+  <meta property="og:locale"      content="en_US">
+
+  <!-- Fonts: Inter (Latin), Noto Sans Thai, Noto Sans SC (Simplified Chinese), Noto Sans JP -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Thai:wght@400;600;700&family=Noto+Sans+SC:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Design system -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation injected here by renderNav() in app.js -->
+  <div id="nav-container"></div>
+
+  <!-- Page content injected here by renderHome() in app.js.
+       data-page="home" tells renderPage() which renderer to call. -->
+  <main id="page-content" data-page="home"></main>
+
+  <!-- Footer injected here by renderFooter() in app.js -->
+  <div id="footer-container"></div>
+
+  <!-- Mobile floating CTA bar (hidden on desktop ≥968px via CSS) -->
+  <div class="floating-cta" id="floating-cta"></div>
+
+  <!-- Scripts: content.js must load before app.js -->
+  <script src="js/content.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

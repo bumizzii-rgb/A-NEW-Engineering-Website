@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>A NEW Engineering — Content Part 1: Home + About Us</title>
+<style>
+  body { font-family: Arial, sans-serif; font-size: 13px; line-height: 1.6; max-width: 1400px; margin: 0 auto; padding: 20px; background: #f5f7fa; }
+  h1 { background: #1B3A6B; color: #fff; padding: 16px 20px; border-radius: 6px; font-size: 18px; }
+  h2 { background: #1B3A6B; color: #fff; padding: 10px 16px; border-radius: 4px; font-size: 14px; margin-top: 32px; }
+  h3 { color: #1B3A6B; border-bottom: 2px solid #1B3A6B; padding-bottom: 4px; font-size: 13px; margin-top: 20px; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0 20px; background: #fff; font-size: 12px; }
+  th { background: #1B3A6B; color: #fff; padding: 8px 10px; text-align: left; font-weight: 600; }
+  td { padding: 8px 10px; border: 1px solid #ddd; vertical-align: top; }
+  td:first-child { background: #EFF4FF; font-weight: 700; color: #1B3A6B; width: 140px; white-space: nowrap; }
+  tr:nth-child(even) td:not(:first-child) { background: #f9fbff; }
+  .page-label { display: inline-block; background: #B91C1C; color: #fff; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 700; margin-bottom: 8px; }
+  .note { background: #fffbeb; border: 1px solid #f59e0b; border-radius: 4px; padding: 8px 12px; font-size: 11px; color: #78350f; margin: 8px 0; }
+  .section-block { background: #fff; border: 1px solid #e2e8f0; border-radius: 6px; padding: 16px; margin-bottom: 16px; }
+  .lang-en { color: #1d4ed8; }
+  .lang-th { color: #065f46; }
+  .lang-zh { color: #7c2d12; }
+  .lang-ja { color: #581c87; }
+  .revised td { background: #fff7e6 !important; }
+  .revised td:first-child { background: #fde68a !important; color: #92400e !important; }
+  .revised td:first-child::after { content: " ✏️"; font-size: 10px; }
+</style>
+</head>
+<body>
+
+<h1>A NEW Engineering Co., Ltd. — Phase 2 Website Content<br>
+<span style="font-size:13px;font-weight:400;">Part 1 of 3: Home Page + About Us | EN · TH · ZH · JA</span></h1>
+
+<div class="note">📋 IMPLEMENTATION NOTE: Each table below corresponds to one content section in Lovable. Element labels in the first column identify the content type (H1, Subheadline, Section Title, Body, CTA, etc.). Replace [PLACEHOLDER] text with actual values once confirmed by the company.</div>
+
+<!-- ============================================================ -->
+<!-- PAGE 1: HOME -->
+<!-- ============================================================ -->
+
+<h2>📄 PAGE 1: HOME (index / /)</h2>
+
+<h3>SEO DATA</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr>
+  <td>SEO Title<br>(55 chars max)</td>
+  <td>Precision CNC Machining Thailand | A NEW Engineering</td>
+  <td>รับงาน CNC ความแม่นยำสูง ชลบุรี | เอ นิว เอ็นจิเนียริ่ง</td>
+  <td>泰国精密CNC加工 | A NEW Engineering有限公司</td>
+  <td>タイ精密CNC加工 | A NEW Engineering</td>
+</tr>
+<tr>
+  <td>Meta Description<br>(155 chars max)</td>
+  <td>A NEW Engineering offers CNC turning, milling, surface grinding, jig &amp; fixture manufacturing, sandblasting &amp; custom parts in Si Racha, Chonburi. Est. 2007. Get a quote today.</td>
+  <td>เอ นิว เอ็นจิเนียริ่ง รับงานกลึง CNC กัด CNC เจียรพื้นผิว จิ๊กและฟิกซ์เจอร์ พ่นทราย ผลิตชิ้นส่วนตามแบบ ศรีราชา ชลบุรี ก่อตั้ง 2550 ขอใบเสนอราคาวันนี้</td>
+  <td>A NEW Engineering提供CNC车削、铣削、平面磨削、夹具制造、喷砂及定制零件加工服务，位于泰国春武里西拉差。2007年成立。立即申请报价。</td>
+  <td>A NEW Engineeringはタイのチョンブリー県シーラーチャーにてCNC旋削・フライス加工・平面研削・治具製造・サンドブラスト・カスタム部品製造を提供。2007年創業。今すぐお見積りを。</td>
+</tr>
+<tr>
+  <td>OG / Social Title</td>
+  <td>A NEW Engineering — Precision CNC Machining in Thailand</td>
+  <td>เอ นิว เอ็นจิเนียริ่ง — รับผลิตชิ้นส่วน CNC ในประเทศไทย</td>
+  <td>A NEW Engineering — 泰国精密CNC加工制造</td>
+  <td>A NEW Engineering — タイの精密CNC加工製造</td>
+</tr>
+</table>
+
+<h3>HERO SECTION</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr>
+  <td>Hero Badge<br>(above H1)</td>
+  <td>Est. 2007 · Si Racha, Chonburi, Thailand</td>
+  <td>ก่อตั้งปี 2550 · ศรีราชา ชลบุรี ประเทศไทย</td>
+  <td>成立于2007年 · 泰国春武里府西拉差</td>
+  <td>2007年創業 · タイ国チョンブリー県シーラーチャー</td>
+</tr>
+<tr>
+  <td>H1 Headline</td>
+  <td>Precision CNC Machining &amp; Custom Manufacturing Solutions</td>
+  <td>รับผลิตชิ้นส่วน CNC ความแม่นยำสูง และงานผลิตแบบครบวงจร</td>
+  <td>泰国精密CNC加工与定制制造解决方案</td>
+  <td>精密CNC加工とカスタム製造ソリューション</td>
+</tr>
+<tr>
+  <td>Subheadline</td>
+  <td>Serving Thailand's industrial sector since 2007 — CNC Turning · CNC Milling · Jig &amp; Fixture · Surface Grinding · Sandblasting | Si Racha, Chonburi</td>
+  <td>ให้บริการภาคอุตสาหกรรมไทยกว่า 19 ปี — กลึง CNC · กัด CNC · จิ๊กและฟิกซ์เจอร์ · เจียรพื้นผิว · พ่นทราย | ศรีราชา ชลบุรี</td>
+  <td>自2007年起服务泰国工业领域 — CNC车削·CNC铣削·夹具制造·平面磨削·喷砂 | 春武里府西拉差</td>
+  <td>2007年よりタイ産業界に精密加工サービスを提供 — CNC旋削・フライス加工・治具製造・平面研削・サンドブラスト | チョンブリー県シーラーチャー</td>
+</tr>
+<tr>
+  <td>CTA Button 1<br>(Primary / Red)</td>
+  <td>Request a Quotation</td>
+  <td>ขอใบเสนอราคา</td>
+  <td>申请报价</td>
+  <td>お見積りを依頼する</td>
+</tr>
+<tr>
+  <td>CTA Button 2<br>(Secondary / Outline)</td>
+  <td>View Our Projects</td>
+  <td>ดูผลงานของเรา</td>
+  <td>查看我们的项目</td>
+  <td>製作実績を見る</td>
+</tr>
+</table>
+
+<h3>STATS BAR (4 numbers)</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr class="revised">
+  <td>Stat 1</td>
+  <td>19+ Years of Manufacturing Experience</td>
+  <td>19+ ปี ประสบการณ์การผลิต</td>
+  <td>19+年 制造经验</td>
+  <td>19年以上 製造実績</td>
+</tr>
+<tr>
+  <td>Stat 2</td>
+  <td>7 Precision Machining Services</td>
+  <td>7 บริการด้านการผลิตความแม่นยำ</td>
+  <td>7项 精密加工服务</td>
+  <td>7種類 精密加工サービス</td>
+</tr>
+<tr>
+  <td>Stat 3</td>
+  <td>10+ CNC Machines &amp; Equipment</td>
+  <td>10+ เครื่องจักร CNC และอุปกรณ์</td>
+  <td>10台以上 CNC设备</td>
+  <td>10台以上 CNC設備</td>
+</tr>
+<tr>
+  <td>Stat 4</td>
+  <td>5+ Industries Served</td>
+  <td>5+ อุตสาหกรรมที่ให้บริการ</td>
+  <td>服务5+个 工业领域</td>
+  <td>5業種以上 に対応</td>
+</tr>
+</table>
+
+<h3>INDUSTRIES SECTION</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr>
+  <td>Section Label<br>(eyebrow)</td>
+  <td>Industries We Serve</td>
+  <td>อุตสาหกรรมที่เราให้บริการ</td>
+  <td>服务行业</td>
+  <td>対応業種</td>
+</tr>
+<tr>
+  <td>Section Title</td>
+  <td>Trusted Across Thailand's Key Manufacturing Sectors</td>
+  <td>ได้รับความไว้วางใจจากอุตสาหกรรมชั้นนำของประเทศไทย</td>
+  <td>获泰国各主要制造行业广泛信赖</td>
+  <td>タイの主要製造業界から幅広い信頼を獲得</td>
+</tr>
+<tr>
+  <td>Section Subtitle</td>
+  <td>From automotive to food processing — we deliver precision components that meet the demands of critical industrial applications</td>
+  <td>ตั้งแต่ยานยนต์ถึงแปรรูปอาหาร — เราส่งมอบชิ้นส่วนความแม่นยำสำหรับการใช้งานอุตสาหกรรมที่สำคัญ</td>
+  <td>从汽车到食品加工 — 我们为各类关键工业应用提供精密零部件</td>
+  <td>自動車から食品加工まで — 重要な産業用途向けの精密部品を提供します</td>
+</tr>
+<tr>
+  <td>Industry 1</td>
+  <td>Automotive Industry</td>
+  <td>อุตสาหกรรมยานยนต์</td>
+  <td>汽车行业</td>
+  <td>自動車産業</td>
+</tr>
+<tr>
+  <td>Industry 2</td>
+  <td>Industrial Automation</td>
+  <td>ระบบอัตโนมัติอุตสาหกรรม</td>
+  <td>工业自动化</td>
+  <td>産業オートメーション</td>
+</tr>
+<tr>
+  <td>Industry 3</td>
+  <td>Packaging Industry</td>
+  <td>อุตสาหกรรมบรรจุภัณฑ์</td>
+  <td>包装行业</td>
+  <td>包装産業</td>
+</tr>
+<tr>
+  <td>Industry 4</td>
+  <td>Food Processing Industry</td>
+  <td>อุตสาหกรรมแปรรูปอาหาร</td>
+  <td>食品加工行业</td>
+  <td>食品加工業</td>
+</tr>
+<tr>
+  <td>Industry 5</td>
+  <td>General Manufacturing</td>
+  <td>การผลิตทั่วไป</td>
+  <td>通用制造业</td>
+  <td>一般製造業</td>
+</tr>
+</table>
+
+<h3>SERVICES OVERVIEW SECTION</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr>
+  <td>Section Label</td>
+  <td>Our Services</td>
+  <td>บริการของเรา</td>
+  <td>我们的服务</td>
+  <td>サービス内容</td>
+</tr>
+<tr>
+  <td>Section Title</td>
+  <td>Complete Precision Machining Capabilities</td>
+  <td>ความสามารถด้านการผลิตชิ้นส่วนความแม่นยำครบวงจร</td>
+  <td>完整的精密加工能力</td>
+  <td>精密加工の総合的な対応能力</td>
+</tr>
+<tr>
+  <td>Section Subtitle</td>
+  <td>From single prototypes to high-volume production runs — our experienced machinists and modern CNC equipment deliver consistent quality on every job</td>
+  <td>ตั้งแต่ต้นแบบชิ้นเดียวถึงการผลิตปริมาณสูง — ช่างผู้เชี่ยวชาญและเครื่อง CNC ทันสมัยของเรา ส่งมอบคุณภาพสม่ำเสมอทุกงาน</td>
+  <td>从单件原型到批量生产 — 我们的经验丰富的技工团队与先进CNC设备，确保每一项工作的一致品质</td>
+  <td>試作品1個から量産まで — 熟練した技術者と最新のCNC設備で、すべての仕事に安定した品質をお届けします</td>
+</tr>
+<tr>
+  <td>Service 1 Name</td>
+  <td>CNC Turning</td>
+  <td>งานกลึง CNC</td>
+  <td>CNC车削</td>
+  <td>CNC旋盤加工</td>
+</tr>
+<tr>
+  <td>Service 1 Desc</td>
+  <td>High-precision lathe machining for cylindrical and rotational components</td>
+  <td>งานกลึงลิงเครื่องจักร CNC สำหรับชิ้นส่วนทรงกระบอกและหมุน</td>
+  <td>用于圆柱形和旋转零件的高精度车床加工</td>
+  <td>円筒形・回転体部品の高精度旋盤加工</td>
+</tr>
+<tr>
+  <td>Service 2 Name</td>
+  <td>CNC Milling</td>
+  <td>งานกัด CNC</td>
+  <td>CNC铣削</td>
+  <td>CNCフライス加工</td>
+</tr>
+<tr>
+  <td>Service 2 Desc</td>
+  <td>Multi-axis precision milling for complex 3D profiles and flat components</td>
+  <td>การกัดความแม่นยำหลายแกนสำหรับโปรไฟล์ 3D ที่ซับซ้อนและชิ้นส่วนแบน</td>
+  <td>多轴精密铣削，适用于复杂三维轮廓及平面零件</td>
+  <td>複雑な3Dプロファイルと平面部品向けの多軸精密フライス加工</td>
+</tr>
+<tr>
+  <td>Service 3 Name</td>
+  <td>Surface Grinding</td>
+  <td>งานเจียรพื้นผิว</td>
+  <td>平面磨削</td>
+  <td>平面研削</td>
+</tr>
+<tr>
+  <td>Service 3 Desc</td>
+  <td>Precision flat surface finishing to tight tolerances and superior surface quality</td>
+  <td>การตกแต่งพื้นผิวแบบราบด้วยความแม่นยำสูงและคุณภาพผิวที่เหนือกว่า</td>
+  <td>高精度平面精加工，公差严格，表面质量卓越</td>
+  <td>厳しい公差と高品質な表面仕上げのための精密平面研削</td>
+</tr>
+<tr>
+  <td>Service 4 Name</td>
+  <td>Jig &amp; Fixture Manufacturing</td>
+  <td>ผลิตจิ๊กและฟิกซ์เจอร์</td>
+  <td>夹具制造</td>
+  <td>治具・フィクスチャー製造</td>
+</tr>
+<tr>
+  <td>Service 4 Desc</td>
+  <td>Custom precision tooling that improves accuracy, consistency, and production efficiency</td>
+  <td>เครื่องมือความแม่นยำแบบกำหนดเองที่ช่วยเพิ่มความถูกต้อง ความสม่ำเสมอ และประสิทธิภาพการผลิต</td>
+  <td>定制精密工装，提升加工精度、一致性和生产效率</td>
+  <td>精度・一貫性・生産効率を向上させるカスタム精密治具の製造</td>
+</tr>
+<tr>
+  <td>Service 5 Name</td>
+  <td>Sandblasting</td>
+  <td>งานพ่นทราย</td>
+  <td>喷砂处理</td>
+  <td>サンドブラスト</td>
+</tr>
+<tr>
+  <td>Service 5 Desc</td>
+  <td>Professional abrasive blasting for surface preparation, rust removal, and finishing</td>
+  <td>การพ่นทรายมืออาชีพสำหรับเตรียมพื้นผิว ขจัดสนิม และตกแต่งพื้นผิว</td>
+  <td>专业喷砂处理，用于表面预处理、除锈及表面精加工</td>
+  <td>表面処理・錆除去・仕上げのためのプロフェッショナルサンドブラスト</td>
+</tr>
+<tr>
+  <td>Service 6 Name</td>
+  <td>Custom Manufacturing</td>
+  <td>ผลิตชิ้นส่วนตามแบบ</td>
+  <td>定制零件制造</td>
+  <td>カスタム製造</td>
+</tr>
+<tr>
+  <td>Service 6 Desc</td>
+  <td>One-off and batch production of precision parts to your exact specifications</td>
+  <td>การผลิตชิ้นส่วนความแม่นยำชิ้นเดียวและแบบชุดตามข้อกำหนดของคุณ</td>
+  <td>按客户精确规格进行单件及批量精密零件生产</td>
+  <td>お客様の仕様に合わせた単品・バッチ生産による精密部品製造</td>
+</tr>
+<tr>
+  <td>Service 7 Name</td>
+  <td>Reverse Engineering</td>
+  <td>วิศวกรรมย้อนกลับ</td>
+  <td>逆向工程</td>
+  <td>リバースエンジニアリング</td>
+</tr>
+<tr>
+  <td>Service 7 Desc</td>
+  <td>Reproduce obsolete or unavailable parts from physical samples — no drawing required</td>
+  <td>ผลิตชิ้นส่วนที่ล้าสมัยหรือหาไม่ได้จากตัวอย่างจริง — ไม่ต้องใช้แบบ</td>
+  <td>根据实物样品复制已停产或无法获取的零件 — 无需图纸</td>
+  <td>現物サンプルから廃番・入手困難な部品を再製造 — 図面不要</td>
+</tr>
+<tr>
+  <td>Services CTA</td>
+  <td>Explore All Services</td>
+  <td>ดูบริการทั้งหมด</td>
+  <td>查看全部服务</td>
+  <td>すべてのサービスを見る</td>
+</tr>
+</table>
+
+<h3>PROJECTS PREVIEW SECTION</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr>
+  <td>Section Label</td>
+  <td>Our Work</td>
+  <td>ผลงานของเรา</td>
+  <td>我们的作品</td>
+  <td>製作実績</td>
+</tr>
+<tr>
+  <td>Section Title</td>
+  <td>Precision Parts Manufactured for Thailand's Industry</td>
+  <td>ชิ้นส่วนความแม่นยำที่ผลิตสำหรับอุตสาหกรรมไทย</td>
+  <td>为泰国工业制造的精密零部件</td>
+  <td>タイの産業向けに製造した精密部品</td>
+</tr>
+<tr>
+  <td>Section Subtitle</td>
+  <td>Browse a selection of precision components we have manufactured for clients across automotive, automation, packaging, and food processing sectors</td>
+  <td>เรียกดูชิ้นส่วนความแม่นยำที่เราผลิตให้กับลูกค้าในภาคยานยนต์ ระบบอัตโนมัติ บรรจุภัณฑ์ และแปรรูปอาหาร</td>
+  <td>浏览我们为汽车、自动化、包装及食品加工行业客户制造的精密零部件精选</td>
+  <td>自動車・オートメーション・包装・食品加工分野のお客様向けに製造した精密部品をご覧ください</td>
+</tr>
+<tr>
+  <td>Category 1</td>
+  <td>CNC Turning Parts</td>
+  <td>ชิ้นส่วนงานกลึง CNC</td>
+  <td>CNC车削零件</td>
+  <td>CNC旋削部品</td>
+</tr>
+<tr>
+  <td>Category 2</td>
+  <td>CNC Milling Parts</td>
+  <td>ชิ้นส่วนงานกัด CNC</td>
+  <td>CNC铣削零件</td>
+  <td>CNCフライス部品</td>
+</tr>
+<tr>
+  <td>Category 3</td>
+  <td>Jig &amp; Fixture</td>
+  <td>จิ๊กและฟิกซ์เจอร์</td>
+  <td>夹具</td>
+  <td>治具・フィクスチャー</td>
+</tr>
+<tr>
+  <td>Category 4</td>
+  <td>Custom &amp; Spare Parts</td>
+  <td>ชิ้นส่วนกำหนดเองและอะไหล่</td>
+  <td>定制零件及备件</td>
+  <td>カスタム・スペアパーツ</td>
+</tr>
+<tr>
+  <td>Projects CTA</td>
+  <td>View All Projects</td>
+  <td>ดูผลงานทั้งหมด</td>
+  <td>查看全部项目</td>
+  <td>すべての実績を見る</td>
+</tr>
+</table>
+
+<h3>MID-PAGE CTA BAND</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr>
+  <td>CTA Title</td>
+  <td>Ready to Start Your Project?</td>
+  <td>พร้อมเริ่มโครงการของคุณแล้วใช่ไหม?</td>
+  <td>准备好启动您的项目了吗？</td>
+  <td>プロジェクトを始める準備はできましたか？</td>
+</tr>
+<tr class="revised">
+  <td>CTA Subtitle</td>
+  <td>Send us your technical drawings or part specifications — our team will review and come back to you with a competitive quotation</td>
+  <td>ส่งแบบทางเทคนิคหรือข้อกำหนดชิ้นส่วนให้เรา — ทีมงานจะตรวจสอบและติดต่อกลับพร้อมใบเสนอราคาที่แข่งขันได้</td>
+  <td>将技术图纸或零件规格发送给我们 — 我们的团队将审核并回复具有竞争力的报价</td>
+  <td>技術図面や部品仕様をお送りください — 弊社チームが確認し、競争力のある見積もりをご回答します</td>
+</tr>
+<tr>
+  <td>CTA Button</td>
+  <td>Submit an RFQ Now</td>
+  <td>ส่ง RFQ เลยตอนนี้</td>
+  <td>立即提交询价单</td>
+  <td>今すぐ見積依頼を送る</td>
+</tr>
+</table>
+
+<h3>WHY CHOOSE US SECTION (Homepage teaser)</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr>
+  <td>Section Title</td>
+  <td>Why Partner with A NEW Engineering?</td>
+  <td>ทำไมต้องเลือก เอ นิว เอ็นจิเนียริ่ง?</td>
+  <td>为什么选择A NEW Engineering？</td>
+  <td>なぜA NEW Engineeringを選ぶのか？</td>
+</tr>
+<tr class="revised">
+  <td>Point 1</td>
+  <td>19+ Years of proven precision manufacturing experience</td>
+  <td>ประสบการณ์การผลิตความแม่นยำที่พิสูจน์แล้วกว่า 19 ปี</td>
+  <td>19年以上经过验证的精密制造经验</td>
+  <td>19年以上の実績ある精密製造の経験</td>
+</tr>
+<tr>
+  <td>Point 2</td>
+  <td>Full-service capability — turning, milling, grinding, sandblasting &amp; jig manufacturing under one roof</td>
+  <td>ความสามารถครบวงจร — กลึง กัด เจียร พ่นทราย และจิ๊กในที่เดียว</td>
+  <td>全方位服务能力 — 车削、铣削、磨削、喷砂及夹具制造一站式完成</td>
+  <td>ワンストップサービス — 旋削・フライス・研削・サンドブラスト・治具製造を一貫対応</td>
+</tr>
+<tr>
+  <td>Point 3</td>
+  <td>Modern multi-brand CNC machines from Mazak, OKUMA, Takisawa, ROKU ROKU &amp; more</td>
+  <td>เครื่อง CNC หลายแบรนด์ทันสมัย จาก Mazak, OKUMA, Takisawa, ROKU ROKU และอื่นๆ</td>
+  <td>配备Mazak、OKUMA、Takisawa、ROKU ROKU等品牌的现代化多品牌CNC设备</td>
+  <td>Mazak・OKUMA・Takisawa・ROKU ROKUなど最新の多ブランドCNC設備を完備</td>
+</tr>
+<tr>
+  <td>Point 4</td>
+  <td>Strategic location in Si Racha, Chonburi — heart of Thailand's Eastern Economic Corridor (EEC)</td>
+  <td>ทำเลเชิงกลยุทธ์ในศรีราชา ชลบุรี — ใจกลางระเบียงเศรษฐกิจพิเศษภาคตะวันออก (EEC) ของไทย</td>
+  <td>战略位置——泰国东部经济走廊（EEC）核心，春武里府西拉差</td>
+  <td>タイ東部経済回廊（EEC）の中心地、チョンブリー県シーラーチャーに立地</td>
+</tr>
+<tr class="revised">
+  <td>Point 5</td>
+  <td>Responsive quotation support — contact our team to discuss your requirements</td>
+  <td>สนับสนุนด้านใบเสนอราคาอย่างรวดเร็ว — ติดต่อทีมงานเพื่อหารือเกี่ยวกับความต้องการของคุณ</td>
+  <td>报价响应及时 — 联系我们的团队讨论您的需求</td>
+  <td>迅速な見積サポート — チームにお問い合わせください</td>
+</tr>
+<tr>
+  <td>Point 6</td>
+  <td>Serving automotive, automation, packaging, food processing &amp; maintenance sectors</td>
+  <td>ให้บริการภาคยานยนต์ ระบบอัตโนมัติ บรรจุภัณฑ์ แปรรูปอาหาร และการบำรุงรักษา</td>
+  <td>服务于汽车、自动化、包装、食品加工及工业维护领域</td>
+  <td>自動車・オートメーション・包装・食品加工・メンテナンス分野に対応</td>
+</tr>
+</table>
+
+<h3>FOOTER CONTENT</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr>
+  <td>Company Tagline</td>
+  <td>Precision Manufacturing for Thailand's Industry</td>
+  <td>การผลิตความแม่นยำสำหรับอุตสาหกรรมไทย</td>
+  <td>为泰国工业提供精密制造服务</td>
+  <td>タイ産業のための精密製造</td>
+</tr>
+<tr>
+  <td>Address Label</td>
+  <td>Address</td>
+  <td>ที่อยู่</td>
+  <td>地址</td>
+  <td>住所</td>
+</tr>
+<tr>
+  <td>Address Value</td>
+  <td>129/14 Moo 11, Bang Phra, Si Racha, Chonburi 20110, Thailand</td>
+  <td>129/14 หมู่ 11 บางพระ ศรีราชา ชลบุรี 20110 ประเทศไทย</td>
+  <td>泰国春武里府西拉差县邦帕129/14村11号，邮编20110</td>
+  <td>タイ国チョンブリー県シーラーチャー郡バーンプラ129/14 ムー11 郵便番号20110</td>
+</tr>
+<tr>
+  <td>Phone Label</td>
+  <td>Phone</td>
+  <td>โทรศัพท์</td>
+  <td>电话</td>
+  <td>電話</td>
+</tr>
+<tr>
+  <td>Email Label</td>
+  <td>Email</td>
+  <td>อีเมล</td>
+  <td>邮箱</td>
+  <td>メール</td>
+</tr>
+<tr>
+  <td>Nav Col 1 Title</td>
+  <td>Services</td>
+  <td>บริการ</td>
+  <td>服务</td>
+  <td>サービス</td>
+</tr>
+<tr>
+  <td>Nav Col 2 Title</td>
+  <td>Company</td>
+  <td>บริษัท</td>
+  <td>公司</td>
+  <td>会社情報</td>
+</tr>
+<tr>
+  <td>Nav Col 3 Title</td>
+  <td>Connect</td>
+  <td>ติดต่อ</td>
+  <td>联系我们</td>
+  <td>お問い合わせ</td>
+</tr>
+<tr class="revised">
+  <td>Copyright</td>
+  <td>© 2026 A NEW Engineering Co., Ltd. All rights reserved.</td>
+  <td>© 2569 บริษัท เอ นิว เอ็นจิเนียริ่ง จำกัด สงวนลิขสิทธิ์</td>
+  <td>© 2026 A NEW Engineering有限公司 版权所有</td>
+  <td>© 2026 A NEW Engineering Co., Ltd. All rights reserved.</td>
+</tr>
+<tr>
+  <td>Floating CTA<br>(mobile sticky bar)</td>
+  <td>Get a Quotation — Tap Here</td>
+  <td>ขอใบเสนอราคา — แตะที่นี่</td>
+  <td>申请报价 — 点击这里</td>
+  <td>見積依頼 — タップしてください</td>
+</tr>
+</table>
+
+<!-- ============================================================ -->
+<!-- PAGE 2: ABOUT US -->
+<!-- ============================================================ -->
+
+<h2>📄 PAGE 2: ABOUT US (/about)</h2>
+
+<h3>SEO DATA</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr>
+  <td>SEO Title</td>
+  <td>About Us | A NEW Engineering — CNC Machining Thailand Since 2007</td>
+  <td>เกี่ยวกับเรา | เอ นิว เอ็นจิเนียริ่ง — รับงาน CNC ไทย ตั้งแต่ปี 2550</td>
+  <td>关于我们 | A NEW Engineering — 泰国CNC加工，自2007年起</td>
+  <td>会社概要 | A NEW Engineering — 2007年創業、タイのCNC加工</td>
+</tr>
+<tr class="revised">
+  <td>Meta Description</td>
+  <td>Learn about A NEW Engineering Co., Ltd. — established 2007 in Si Racha, Chonburi. 19+ years of precision CNC machining serving automotive, automation, packaging, and food processing industries across Thailand.</td>
+  <td>เรียนรู้เกี่ยวกับ บ. เอ นิว เอ็นจิเนียริ่ง จก. ก่อตั้งปี 2550 ศรีราชา ชลบุรี 19+ ปีของการผลิตชิ้นส่วน CNC ให้กับอุตสาหกรรมยานยนต์ ระบบอัตโนมัติ บรรจุภัณฑ์ และแปรรูปอาหาร</td>
+  <td>了解A NEW Engineering有限公司——2007年成立于泰国春武里府西拉差，19年以上精密CNC加工经验，服务汽车、自动化、包装及食品加工行业。</td>
+  <td>A NEW Engineering Co., Ltd.について — 2007年チョンブリー県シーラーチャー創業。19年以上にわたり自動車・オートメーション・包装・食品加工分野に精密CNC加工を提供。</td>
+</tr>
+</table>
+
+<h3>PAGE HERO</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr>
+  <td>Breadcrumb</td>
+  <td>Home → About Us</td>
+  <td>หน้าแรก → เกี่ยวกับเรา</td>
+  <td>首页 → 关于我们</td>
+  <td>ホーム → 会社概要</td>
+</tr>
+<tr>
+  <td>H1 Headline</td>
+  <td>About A NEW Engineering Co., Ltd.</td>
+  <td>เกี่ยวกับ บริษัท เอ นิว เอ็นจิเนียริ่ง จำกัด</td>
+  <td>关于A NEW Engineering有限公司</td>
+  <td>A NEW Engineering Co., Ltd. について</td>
+</tr>
+<tr class="revised">
+  <td>Subheadline</td>
+  <td>Over 19 years of precision machining experience — serving Thailand's industrial sector from Si Racha, Chonburi</td>
+  <td>กว่า 19 ปีแห่งประสบการณ์การผลิตความแม่นยำ — ให้บริการจากศรีราชา ชลบุรี</td>
+  <td>19年以上的精密加工经验 — 从泰国春武里府西拉差为各地客户服务</td>
+  <td>19年以上にわたる精密加工の経験 — タイ国チョンブリー県シーラーチャーよりサービスを提供</td>
+</tr>
+</table>
+
+<h3>COMPANY OVERVIEW SECTION</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr>
+  <td>Section Title</td>
+  <td>Who We Are</td>
+  <td>เราคือใคร</td>
+  <td>我们是谁</td>
+  <td>私たちについて</td>
+</tr>
+<tr>
+  <td>Body Paragraph 1</td>
+  <td>A NEW Engineering Co., Ltd. was established in 2007 in Si Racha, Chonburi — Thailand's most industrially concentrated province, strategically positioned within the Eastern Economic Corridor (EEC). For over 19 years, we have been a trusted precision machining partner for manufacturing plants, automotive suppliers, automation system integrators, packaging machinery manufacturers, food processing facilities, and industrial maintenance teams across Thailand.</td>
+  <td>บริษัท เอ นิว เอ็นจิเนียริ่ง จำกัด ก่อตั้งขึ้นในปี 2550 ที่ศรีราชา ชลบุรี จังหวัดที่มีความหนาแน่นทางอุตสาหกรรมสูงที่สุดของประเทศไทย และตั้งอยู่ในเขตพัฒนาพิเศษภาคตะวันออก (EEC) กว่า 19 ปี เราได้เป็นพันธมิตรด้านการผลิตชิ้นส่วนความแม่นยำที่น่าไว้วางใจสำหรับโรงงานผลิต ผู้จัดหาชิ้นส่วนยานยนต์ ผู้รวมระบบอัตโนมัติ ผู้ผลิตเครื่องจักรบรรจุภัณฑ์ โรงงานแปรรูปอาหาร และทีมซ่อมบำรุงอุตสาหกรรมทั่วประเทศไทย</td>
+  <td>A NEW Engineering有限公司成立于2007年，位于泰国工业最密集的省份——春武里府西拉差，战略性地坐落于东部经济走廊（EEC）内。19年来，我们一直是泰国各地制造工厂、汽车零部件供应商、自动化系统集成商、包装机械制造商、食品加工设施及工业维护团队值得信赖的精密加工合作伙伴。</td>
+  <td>A NEW Engineering Co., Ltd.は2007年、タイで最も工業集積度の高い省であるチョンブリー県シーラーチャー——東部経済回廊（EEC）の戦略的拠点——に創業しました。19年以上にわたり、タイ全土の製造工場、自動車部品サプライヤー、自動化システムインテグレーター、包装機械メーカー、食品加工施設、産業メンテナンスチームの信頼できる精密加工パートナーとして歩んでまいりました。</td>
+</tr>
+<tr>
+  <td>Body Paragraph 2</td>
+  <td>Our production floor is equipped with 10+ precision CNC lathes, vertical machining centers, and surface grinding machines from globally recognized manufacturers including Mazak, OKUMA, Takisawa, ROKU ROKU, Enshu, OKK, and Jones &amp; Shipman. Our skilled team of CNC machinists, programmers, and quality inspectors applies rigorous process control at every stage — from raw material receipt and first-article inspection through to final dimensional verification before shipment.</td>
+  <td>พื้นที่การผลิตของเราติดตั้งเครื่องกลึง CNC เครื่องกัดแนวตั้ง และเครื่องเจียรพื้นผิวที่มีความแม่นยำสูงกว่า 10 เครื่องจากผู้ผลิตที่ได้รับการยอมรับระดับโลก ได้แก่ Mazak, OKUMA, Takisawa, ROKU ROKU, Enshu, OKK และ Jones &amp; Shipman ทีมช่างกลึง CNC โปรแกรมเมอร์ และผู้ตรวจสอบคุณภาพที่มีทักษะสูงของเรา ใช้การควบคุมกระบวนการที่เข้มงวดในทุกขั้นตอน ตั้งแต่การรับวัตถุดิบและการตรวจสอบชิ้นแรก ไปจนถึงการตรวจสอบขนาดขั้นสุดท้ายก่อนจัดส่ง</td>
+  <td>我们的生产车间配备10台以上来自全球知名制造商的精密CNC车床、立式加工中心及平面磨床，包括Mazak、OKUMA、Takisawa、ROKU ROKU、Enshu、OKK及Jones &amp; Shipman。我们技术精湛的CNC技工、编程人员及质检团队在每个生产环节实施严格的过程控制——从原材料接收和首件检验，直至发货前的最终尺寸检验。</td>
+  <td>弊社の製造フロアには、Mazak、OKUMA、Takisawa、ROKU ROKU、Enshu、OKK、Jones &amp; Shipmanなど世界的に認められたメーカーの精密CNC旋盤、立型マシニングセンター、平面研削盤が10台以上稼働しています。熟練したCNC技術者、プログラマー、品質検査員が、原材料受入・初品検査から出荷前の最終寸法検査まで、すべての工程で厳格なプロセス管理を実施しています。</td>
+</tr>
+</table>
+
+<h3>VISION &amp; MISSION</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr>
+  <td>Vision Label</td>
+  <td>Our Vision</td>
+  <td>วิสัยทัศน์ของเรา</td>
+  <td>我们的愿景</td>
+  <td>ビジョン</td>
+</tr>
+<tr>
+  <td>Vision Text</td>
+  <td>To earn and maintain the trust of every client we work with — by consistently producing precision-machined components to specification, delivering on time, and bringing the same level of care and quality to every job, regardless of size or volume.</td>
+  <td>ได้รับและรักษาความไว้วางใจจากลูกค้าทุกรายที่เราทำงานด้วย — โดยผลิตชิ้นส่วนความแม่นยำตามข้อกำหนดอย่างสม่ำเสมอ ส่งมอบตรงเวลา และให้ความใส่ใจในคุณภาพและรายละเอียดเท่าเทียมกันในทุกงาน ไม่ว่าจะมีขนาดหรือปริมาณเท่าใดก็ตาม</td>
+  <td>赢得并维护每一位合作客户的信任——始终如一地按规格生产精密零件、按时交货，并对每一个订单投入同等的专注与品质把控，无论订单大小。</td>
+  <td>お取引いただくすべてのお客様の信頼を誠実に積み上げること——仕様通りの精密部品を常に安定してお届けし、納期を守り、受注の規模にかかわらず、すべての仕事に変わらぬ品質への真摯な姿勢で臨みます。</td>
+</tr>
+<tr>
+  <td>Mission Label</td>
+  <td>Our Mission</td>
+  <td>พันธกิจของเรา</td>
+  <td>我们的使命</td>
+  <td>ミッション</td>
+</tr>
+<tr>
+  <td>Mission Text</td>
+  <td>To deliver precision-machined parts and tooling that meet our clients' specifications — on time, at a fair price, and with the responsiveness and reliability that working businesses depend on. We respond to enquiries promptly, communicate openly throughout each job, and take pride in getting the details right. By doing this consistently, we aim to be a machining partner our clients return to, trust with their critical components, and recommend to others — built on over 19 years of honest, skilled manufacturing work in Si Racha, Chonburi.</td>
+  <td>ส่งมอบชิ้นส่วนและเครื่องมือที่มีความแม่นยำตามข้อกำหนดของลูกค้า — ตรงเวลา ในราคาที่เป็นธรรม และด้วยความรวดเร็วและความน่าเชื่อถือที่ธุรกิจต้องการ เราตอบสนองต่อคำถามอย่างรวดเร็ว สื่อสารอย่างเปิดเผยตลอดทุกงาน และภูมิใจในการทำรายละเอียดให้ถูกต้อง โดยการทำสิ่งนี้อย่างสม่ำเสมอ เรามุ่งมั่นที่จะเป็นพันธมิตรด้านการผลิตที่ลูกค้ากลับมาหา ไว้วางใจกับชิ้นส่วนสำคัญ และแนะนำให้ผู้อื่น — สร้างบนพื้นฐานประสบการณ์การผลิตที่ซื่อสัตย์และมีทักษะกว่า 19 ปีในศรีราชา ชลบุรี</td>
+  <td>按时、以合理价格交付符合客户规格的精密零件和工装，并以工作企业所依赖的响应速度和可靠性提供服务。我们迅速回复询价、在每个订单全程保持透明沟通，并以把每个细节做对为荣。通过持续的一贯表现，我们希望成为客户愿意回头合作、放心委托关键零件、并乐意向他人推荐的加工伙伴——这一切建立在19年以上在春武里西拉差诚信、专业的制造经验之上。</td>
+  <td>お客様の仕様を満たす精密部品と治工具を、期日通り・適正価格で、企業活動に必要な迅速さと信頼性をもってお届けすること。お問い合わせには素早く対応し、各案件を通じてオープンにコミュニケーションを取り、細部まで正確に仕上げることに誇りを持っています。これを継続することで、お客様が繰り返し発注し、重要な部品を安心して任せ、周囲に紹介したくなる加工パートナーを目指します——シーラーチャー・チョンブリーにおける19年以上の誠実で熟練した製造の積み重ねの上に。</td>
+</tr>
+</table>
+
+<h3>WHY CHOOSE US — FULL SECTION</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr>
+  <td>Section Title</td>
+  <td>Why Choose A NEW Engineering?</td>
+  <td>ทำไมต้องเลือก เอ นิว เอ็นจิเนียริ่ง?</td>
+  <td>为什么选择A NEW Engineering？</td>
+  <td>なぜA NEW Engineeringを選ぶのか？</td>
+</tr>
+<tr>
+  <td>Reason 1 Title</td>
+  <td>Established Track Record Since 2007</td>
+  <td>ผลงานที่ผ่านการพิสูจน์ตั้งแต่ปี 2550</td>
+  <td>自2007年以来的成熟业绩</td>
+  <td>2007年創業の確かな実績</td>
+</tr>
+<tr>
+  <td>Reason 1 Body</td>
+  <td>Over 19 years of continuous operation serving industrial clients across Thailand. Our experience spans prototype work, batch production, emergency spare parts, and complex jig and fixture projects.</td>
+  <td>กว่า 19 ปีของการดำเนินงานต่อเนื่องให้บริการลูกค้าอุตสาหกรรมทั่วประเทศไทย ประสบการณ์ของเราครอบคลุมงานต้นแบบ การผลิตเป็นชุด อะไหล่ฉุกเฉิน และโครงการจิ๊กและฟิกซ์เจอร์ที่ซับซ้อน</td>
+  <td>19年以上持续运营，为泰国各地的工业客户提供服务。我们的经验涵盖原型制作、批量生产、紧急备件供应及复杂夹具项目。</td>
+  <td>19年以上にわたりタイ全土の産業顧客に継続的にサービスを提供。試作・量産・緊急スペアパーツ・複雑な治具プロジェクトまで豊富な経験を持ちます。</td>
+</tr>
+<tr>
+  <td>Reason 2 Title</td>
+  <td>Complete In-House Machining Capability</td>
+  <td>ความสามารถในการผลิตภายในองค์กรอย่างครบวงจร</td>
+  <td>全面的内部加工能力</td>
+  <td>充実した自社内加工能力</td>
+</tr>
+<tr>
+  <td>Reason 2 Body</td>
+  <td>CNC turning, CNC milling, surface grinding, jig and fixture manufacturing, sandblasting, custom manufacturing, and reverse engineering — all performed in-house at our Si Racha facility. No subcontracting of core processes means better quality control and faster delivery.</td>
+  <td>งานกลึง CNC งานกัด CNC เจียรพื้นผิว จิ๊กและฟิกซ์เจอร์ พ่นทราย ผลิตตามแบบ และวิศวกรรมย้อนกลับ — ทำภายในที่โรงงานศรีราชาของเรา ไม่มีการจ้างงานช่วงสำหรับกระบวนการหลัก ซึ่งหมายความว่าการควบคุมคุณภาพที่ดีขึ้นและการส่งมอบที่รวดเร็วขึ้น</td>
+  <td>CNC车削、CNC铣削、平面磨削、夹具制造、喷砂、定制零件制造及逆向工程——全部在我们西拉差工厂内自主完成。核心工序不外包，意味着更好的质量控制和更快的交货速度。</td>
+  <td>CNC旋削・フライス加工・平面研削・治具製造・サンドブラスト・カスタム製造・リバースエンジニアリング、すべてシーラーチャーの自社工場内で一貫対応。コア工程の外注なしで、より高い品質管理と迅速な納品を実現します。</td>
+</tr>
+<tr>
+  <td>Reason 3 Title</td>
+  <td>Modern Multi-Brand CNC Equipment</td>
+  <td>เครื่อง CNC หลายแบรนด์ที่ทันสมัย</td>
+  <td>现代化多品牌CNC设备</td>
+  <td>最新の多ブランドCNC設備</td>
+</tr>
+<tr>
+  <td>Reason 3 Body</td>
+  <td>Our 10+ machine production floor features equipment from world-leading manufacturers — Mazak, OKUMA, Takisawa, ROKU ROKU, Enshu, OKK, and Jones &amp; Shipman — providing broad machining capability for diverse material types and part complexities.</td>
+  <td>พื้นที่การผลิตที่มีเครื่องจักรมากกว่า 10 เครื่องของเรา ประกอบด้วยอุปกรณ์จากผู้ผลิตชั้นนำระดับโลก — Mazak, OKUMA, Takisawa, ROKU ROKU, Enshu, OKK และ Jones &amp; Shipman — ให้ความสามารถในการผลิตที่หลากหลายสำหรับประเภทวัสดุและความซับซ้อนของชิ้นส่วนที่หลากหลาย</td>
+  <td>我们拥有10台以上来自全球顶级制造商的设备——Mazak、OKUMA、Takisawa、ROKU ROKU、Enshu、OKK及Jones &amp; Shipman——为各类材料和复杂零件提供全面的加工能力。</td>
+  <td>Mazak・OKUMA・Takisawa・ROKU ROKU・Enshu・OKK・Jones &amp; Shipmanなど世界トップメーカーの設備を10台以上備え、多様な材質や複雑な形状の部品に幅広く対応します。</td>
+</tr>
+<tr>
+  <td>Reason 4 Title</td>
+  <td>EEC Strategic Location</td>
+  <td>ทำเลเชิงกลยุทธ์ในเขต EEC</td>
+  <td>EEC战略地理位置</td>
+  <td>EEC戦略的立地</td>
+</tr>
+<tr>
+  <td>Reason 4 Body</td>
+  <td>Located in Si Racha, Chonburi — the industrial and logistics hub of Thailand's Eastern Economic Corridor. Close proximity to major industrial estates, seaports (Laem Chabang), and manufacturing clusters makes us an ideal local supplier for EEC-based operations.</td>
+  <td>ตั้งอยู่ที่ศรีราชา ชลบุรี — ศูนย์กลางอุตสาหกรรมและโลจิสติกส์ของระเบียงเศรษฐกิจพิเศษภาคตะวันออกของไทย ใกล้กับนิคมอุตสาหกรรม ท่าเรือ (แหลมฉบัง) และกลุ่มอุตสาหกรรมขนาดใหญ่ ทำให้เราเป็นซัพพลายเออร์ท้องถิ่นที่เหมาะสมสำหรับการดำเนินงานในเขต EEC</td>
+  <td>位于春武里府西拉差——泰国东部经济走廊的工业与物流枢纽。紧邻大型工业园区、海港（林查班港）及制造业集群，是EEC区域运营企业理想的本地供应商。</td>
+  <td>タイ東部経済回廊の工業・物流拠点、チョンブリー県シーラーチャーに立地。主要工業団地、港湾（レムチャバン港）、製造業集積地に近接しており、EEC拠点企業に最適なローカルサプライヤーです。</td>
+</tr>
+<tr>
+  <td>Reason 5 Title</td>
+  <td>Responsive &amp; Reliable Service</td>
+  <td>บริการที่รวดเร็วและเชื่อถือได้</td>
+  <td>响应迅速、服务可靠</td>
+  <td>迅速・確実なサービス</td>
+</tr>
+<tr>
+  <td>Reason 5 Body</td>
+  <td>We understand that manufacturing downtime is costly. Our team responds to quotation requests promptly, and we work closely with our clients to prioritize urgent jobs, minimize lead times, and communicate proactively at every stage of production.</td>
+  <td>เราเข้าใจว่าการหยุดเดินเครื่องการผลิตมีต้นทุนสูง ทีมงานของเราตอบสนองต่อคำขอใบเสนอราคาอย่างรวดเร็ว และทำงานร่วมกับลูกค้าอย่างใกล้ชิดเพื่อจัดลำดับความสำคัญงานเร่งด่วน ลดระยะเวลาการผลิต และสื่อสารเชิงรุกในทุกขั้นตอนของการผลิต</td>
+  <td>我们深知生产停工的代价高昂。我们的团队迅速回复报价请求，并与客户密切协作，优先处理紧急订单，缩短交货期，并在每个生产环节主动保持沟通。</td>
+  <td>製造ラインのダウンタイムがいかにコストに直結するかを深く理解しています。弊社チームは見積依頼に迅速に対応し、緊急案件の優先対応、リードタイムの短縮、各生産工程での積極的なコミュニケーションに努めます。</td>
+</tr>
+<tr>
+  <td>Reason 6 Title</td>
+  <td>Bilingual Team — Thai &amp; English</td>
+  <td>ทีมงานสองภาษา — ไทยและอังกฤษ</td>
+  <td>双语团队 — 泰语与英语</td>
+  <td>バイリンガル対応 — タイ語・英語</td>
+</tr>
+<tr>
+  <td>Reason 6 Body</td>
+  <td>Our team communicates fluently in both Thai and English, ensuring clear technical discussions with both domestic and international clients. We can review English-language engineering drawings and specifications without translation delays.</td>
+  <td>ทีมงานของเราสื่อสารได้อย่างคล่องแคล่วทั้งภาษาไทยและอังกฤษ รับประกันการอภิปรายทางเทคนิคที่ชัดเจนกับลูกค้าทั้งในและต่างประเทศ เราสามารถตรวจสอบแบบวิศวกรรมและข้อกำหนดภาษาอังกฤษได้โดยไม่ต้องรอการแปล</td>
+  <td>我们的团队能够流利地使用泰语和英语进行沟通，确保与国内外客户进行清晰的技术交流。我们可以直接审阅英文工程图纸和规格说明，无需等待翻译。</td>
+  <td>弊社チームはタイ語と英語を流暢に扱い、国内外のお客様との技術的なやり取りをスムーズに行います。英語の工程図面や仕様書も翻訳を待たずに直接確認できます。</td>
+</tr>
+</table>
+
+<h3>ABOUT PAGE — CTA</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr>
+  <td>CTA Title</td>
+  <td>Let's Work Together</td>
+  <td>มาทำงานร่วมกัน</td>
+  <td>携手合作</td>
+  <td>一緒に取り組みましょう</td>
+</tr>
+<tr>
+  <td>CTA Subtitle</td>
+  <td>Send us your drawings or part specifications and let us demonstrate the A NEW Engineering difference — precision, reliability, and responsive service every time</td>
+  <td>ส่งแบบหรือข้อกำหนดชิ้นส่วนให้เรา และให้เราแสดงให้เห็นความแตกต่างของ เอ นิว เอ็นจิเนียริ่ง — ความแม่นยำ ความน่าเชื่อถือ และบริการที่รวดเร็วทุกครั้ง</td>
+  <td>将您的图纸或零件规格发送给我们，让我们展示A NEW Engineering的与众不同——每次都做到精准、可靠、响应迅速</td>
+  <td>図面や部品仕様をお送りいただき、A NEW Engineeringの違いを実感してください——常に精密さ、信頼性、そして迅速なサービスをお届けします</td>
+</tr>
+<tr>
+  <td>CTA Button 1</td>
+  <td>Request a Quotation</td>
+  <td>ขอใบเสนอราคา</td>
+  <td>申请报价</td>
+  <td>お見積りを依頼する</td>
+</tr>
+<tr>
+  <td>CTA Button 2</td>
+  <td>Download Capabilities Overview</td>
+  <td>ดาวน์โหลดภาพรวมความสามารถ</td>
+  <td>下载能力概览</td>
+  <td>能力概要をダウンロード</td>
+</tr>
+</table>
+
+<div class="note">📌 PLACEHOLDER NOTE: The following About Us sub-sections require additional information from the company before content can be finalized: (1) Certifications held — ISO, quality system, industry-specific certs; (2) Company headcount and factory floor area; (3) Director/founder name and brief bio for leadership section; (4) Client logos or sector references for social proof. Content marked [TBC] will be updated once this information is provided.</div>
+
+<h3>COMPANY FACTS (for sidebar / infographic)</h3>
+<table>
+<tr><th>Element</th><th>🇬🇧 English</th><th>🇹🇭 ภาษาไทย</th><th>🇨🇳 简体中文</th><th>🇯🇵 日本語</th></tr>
+<tr>
+  <td>Fact: Year</td>
+  <td>Established: 2007</td>
+  <td>ก่อตั้ง: 2550</td>
+  <td>成立时间：2007年</td>
+  <td>創業：2007年</td>
+</tr>
+<tr>
+  <td>Fact: Location</td>
+  <td>Si Racha, Chonburi, Thailand</td>
+  <td>ศรีราชา ชลบุรี ประเทศไทย</td>
+  <td>泰国春武里府西拉差</td>
+  <td>タイ国チョンブリー県シーラーチャー</td>
+</tr>
+<tr>
+  <td>Fact: Services</td>
+  <td>7 Core Machining Services</td>
+  <td>7 บริการการผลิตหลัก</td>
+  <td>7项核心加工服务</td>
+  <td>7種類のコア加工サービス</td>
+</tr>
+<tr>
+  <td>Fact: Machines</td>
+  <td>10+ CNC Machines &amp; Production Equipment</td>
+  <td>เครื่องจักร CNC และอุปกรณ์การผลิต 10+ เครื่อง</td>
+  <td>10台以上CNC设备及生产设施</td>
+  <td>CNC設備・生産機器10台以上</td>
+</tr>
+<tr>
+  <td>Fact: Industries</td>
+  <td>5+ Industries Served</td>
+  <td>บริการมากกว่า 5 อุตสาหกรรม</td>
+  <td>服务5个以上行业</td>
+  <td>5業種以上に対応</td>
+</tr>
+<tr>
+  <td>Fact: Staff [TBC]</td>
+  <td>[Number] Skilled Employees</td>
+  <td>[จำนวน] พนักงานที่มีทักษะ</td>
+  <td>[人数]名技术熟练员工</td>
+  <td>熟練従業員[人数]名</td>
+</tr>
+<tr>
+  <td>Cert [TBC]</td>
+  <td>[Certification Name, e.g., ISO 9001:2015]</td>
+  <td>[ชื่อมาตรฐาน เช่น ISO 9001:2015]</td>
+  <td>[认证名称，如ISO 9001:2015]</td>
+  <td>[認証名、例：ISO 9001:2015]</td>
+</tr>
+</table>
+
+<br>
+<div style="background:#1B3A6B;color:#fff;padding:12px 16px;border-radius:6px;text-align:center;font-weight:700;">
+  ✅ END OF PART 1 — Continue to Part 2 (Services Pages) and Part 3 (Machinery + Projects + Careers + Contact/RFQ)
+</div>
+
+</body>
+</html>
