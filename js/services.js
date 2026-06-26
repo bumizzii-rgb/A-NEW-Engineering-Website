@@ -52,7 +52,7 @@ function renderServicesPage() {
   document.getElementById('page-content').innerHTML =
 
     /* ── INNER HERO ── */
-    '<section class="hero hero--inner" style="background:linear-gradient(135deg,rgba(15,35,71,.85) 0%,rgba(27,58,107,.80) 55%,rgba(13,92,122,.78) 100%),url(images/hero-sevices.webp.png);background-size:cover;background-position:center">'
+    '<section class="hero hero--inner" style="background:linear-gradient(135deg,rgba(15,35,71,.85) 0%,rgba(27,58,107,.80) 55%,rgba(13,92,122,.78) 100%),url(images/hero-services.webp.png);background-size:cover;background-position:center">'
     + '<div class="container">'
     +   '<nav aria-label="Breadcrumb" class="hero__badge" style="background:rgba(255,255,255,0.15);display:inline-block">'
     +     '<a href="index.html" style="color:inherit;text-decoration:none">' + esc(t(C.nav.home)) + '</a>'
