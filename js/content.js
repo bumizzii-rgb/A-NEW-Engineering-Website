@@ -25,13 +25,13 @@ C.nav = {
   contact:  {en:'Contact',  th:'ติดต่อเรา',     zh:'联系我们', ja:'お問い合わせ'},
   cta:      {en:'Get a Quote', th:'ขอใบเสนอราคา', zh:'申请报价', ja:'お見積りを依頼'},
   service_items: [
-    {en:'Structural Steel Fabrication',  th:'งานโครงสร้างเหล็ก',          zh:'钢结构制造',    ja:'鉄骨構造製作',            slug:'structural-steel.html'},
-    {en:'Welding & Fabrication',         th:'งานเชื่อมและผลิตโลหะ',        zh:'焊接与金属加工', ja:'溶接・金属加工',           slug:'welding-fabrication.html'},
-    {en:'Industrial Installation',       th:'งานติดตั้งอุตสาหกรรม',         zh:'工业安装',      ja:'産業機器設置工事',          slug:'industrial-installation.html'},
-    {en:'Machine Structure Fabrication', th:'งานโครงสร้างเครื่องจักร',      zh:'机械结构制造',  ja:'機械架台・構造体製作',      slug:'machine-structure.html'},
-    {en:'Custom Manufacturing',          th:'ผลิตชิ้นส่วนตามแบบ',           zh:'定制零件制造',  ja:'カスタム製造',              slug:'custom-manufacturing.html'},
-    {en:'CNC Machining',                 th:'งานกลึงและกัด CNC',            zh:'CNC精密加工',  ja:'CNC精密加工',               slug:'cnc-machining.html'},
-    {en:'Reverse Engineering',           th:'วิศวกรรมย้อนกลับ',             zh:'逆向工程',      ja:'リバースエンジニアリング',  slug:'reverse-engineering.html'}
+    {en:'Structural Steel Fabrication',  th:'งานโครงสร้างเหล็ก',          zh:'钢结构制造',    ja:'鉄骨構造製作',            slug:'services.html#structural-steel'},
+    {en:'Welding & Fabrication',         th:'งานเชื่อมและผลิตโลหะ',        zh:'焊接与金属加工', ja:'溶接・金属加工',           slug:'services.html#welding'},
+    {en:'Industrial Installation',       th:'งานติดตั้งอุตสาหกรรม',         zh:'工业安装',      ja:'産業機器設置工事',          slug:'services.html#installation'},
+    {en:'Machine Structure Fabrication', th:'งานโครงสร้างเครื่องจักร',      zh:'机械结构制造',  ja:'機械架台・構造体製作',      slug:'services.html#machine-structure'},
+    {en:'Custom Manufacturing',          th:'ผลิตชิ้นส่วนตามแบบ',           zh:'定制零件制造',  ja:'カスタム製造',              slug:'services.html#custom'},
+    {en:'CNC Machining',                 th:'งานกลึงและกัด CNC',            zh:'CNC精密加工',  ja:'CNC精密加工',               slug:'services.html#cnc'},
+    {en:'Reverse Engineering',           th:'วิศวกรรมย้อนกลับ',             zh:'逆向工程',      ja:'リバースエンジニアリング',  slug:'services.html#reverse'}
   ]
 };
 
@@ -45,8 +45,8 @@ C.footer = {
                th:'129/14 หมู่ 11 บางพระ ศรีราชา ชลบุรี 20110 ประเทศไทย',
                zh:'泰国春武里府西拉差县邦帕129/14村11号，邮编20110',
                ja:'タイ国チョンブリー県シーラーチャー郡バーンプラ129/14 ムー11 郵便番号20110'},
-  phone1:     '033-046-051-2',
-  phone2:     '033-046-051-2',
+  phone1:     '094-925-5553',
+  phone2:     '094-925-5552',
   email1:     'sales@anew.co.th',
   email2:     'saleanew@gmail.com',
   facebook:   'facebook.com/AnewEngineering',

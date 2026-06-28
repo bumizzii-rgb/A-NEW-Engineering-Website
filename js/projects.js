@@ -47,22 +47,24 @@ C.projects = {
      To add a real photo: add  src:'images/projects/filename.jpg'
      ──────────────────────────────────────────────────────────── */
   items: [
-    {cat:{en:'Structural Steel Fabrication',  th:'งานโครงสร้างเหล็ก',        zh:'钢结构制造',    ja:'鉄骨構造製作'}},
-    {cat:{en:'Structural Steel Fabrication',  th:'งานโครงสร้างเหล็ก',        zh:'钢结构制造',    ja:'鉄骨構造製作'}},
-    {cat:{en:'Structural Steel Fabrication',  th:'งานโครงสร้างเหล็ก',        zh:'钢结构制造',    ja:'鉄骨構造製作'}},
-    {cat:{en:'Welding & Fabrication',         th:'งานเชื่อมและผลิตโลหะ',     zh:'焊接与金属加工', ja:'溶接・金属加工'}},
-    {cat:{en:'Welding & Fabrication',         th:'งานเชื่อมและผลิตโลหะ',     zh:'焊接与金属加工', ja:'溶接・金属加工'}},
-    {cat:{en:'Welding & Fabrication',         th:'งานเชื่อมและผลิตโลหะ',     zh:'焊接与金属加工', ja:'溶接・金属加工'}},
-    {cat:{en:'Industrial Installation',       th:'งานติดตั้งอุตสาหกรรม',      zh:'工业安装',      ja:'産業機器設置工事'}},
-    {cat:{en:'Industrial Installation',       th:'งานติดตั้งอุตสาหกรรม',      zh:'工业安装',      ja:'産業機器設置工事'}},
-    {cat:{en:'Machine Structure Fabrication', th:'งานโครงสร้างเครื่องจักร',   zh:'机械结构制造',  ja:'機械架台・構造体製作'}},
-    {cat:{en:'Machine Structure Fabrication', th:'งานโครงสร้างเครื่องจักร',   zh:'机械结构制造',  ja:'機械架台・構造体製作'}},
-    {cat:{en:'Custom Manufacturing',          th:'ผลิตชิ้นส่วนตามแบบ',        zh:'定制零件制造',  ja:'カスタム製造'}},
-    {cat:{en:'Custom Manufacturing',          th:'ผลิตชิ้นส่วนตามแบบ',        zh:'定制零件制造',  ja:'カスタム製造'}},
-    {cat:{en:'CNC Machining',                 th:'งานกลึงและกัด CNC',         zh:'CNC精密加工',  ja:'CNC精密加工'}},
-    {cat:{en:'CNC Machining',                 th:'งานกลึงและกัด CNC',         zh:'CNC精密加工',  ja:'CNC精密加工'}},
-    {cat:{en:'Reverse Engineering',           th:'วิศวกรรมย้อนกลับ',          zh:'逆向工程',      ja:'リバースエンジニアリング'}},
-    {cat:{en:'Reverse Engineering',           th:'วิศวกรรมย้อนกลับ',          zh:'逆向工程',      ja:'リバースエンジニアリング'}}
+    {src:'images.project/steel-01.png',         cat:{en:'Structural Steel Fabrication',  th:'งานโครงสร้างเหล็ก',      zh:'钢结构制造',    ja:'鉄骨構造製作'}},
+    {src:'images.project/steel-02.png',         cat:{en:'Structural Steel Fabrication',  th:'งานโครงสร้างเหล็ก',      zh:'钢结构制造',    ja:'鉄骨構造製作'}},
+    {src:'images.project/steel-03.png',         cat:{en:'Structural Steel Fabrication',  th:'งานโครงสร้างเหล็ก',      zh:'钢结构制造',    ja:'鉄骨構造製作'}},
+    {src:'images.project/steel-04.png',         cat:{en:'Structural Steel Fabrication',  th:'งานโครงสร้างเหล็ก',      zh:'钢结构制造',    ja:'鉄骨構造製作'}},
+    {src:'images.project/steel-05.png',         cat:{en:'Structural Steel Fabrication',  th:'งานโครงสร้างเหล็ก',      zh:'钢结构制造',    ja:'鉄骨構造製作'}},
+    {src:'images.project/welding-01.png',       cat:{en:'Welding & Fabrication',         th:'งานเชื่อมและผลิตโลหะ',   zh:'焊接与金属加工', ja:'溶接・金属加工'}},
+    {src:'images.project/welding-02.jpg',       cat:{en:'Welding & Fabrication',         th:'งานเชื่อมและผลิตโลหะ',   zh:'焊接与金属加工', ja:'溶接・金属加工'}},
+    {src:'images.project/welding-03.png',       cat:{en:'Welding & Fabrication',         th:'งานเชื่อมและผลิตโลหะ',   zh:'焊接与金属加工', ja:'溶接・金属加工'}},
+    {src:'images.project/installation-01.png',  cat:{en:'Industrial Installation',       th:'งานติดตั้งอุตสาหกรรม',   zh:'工业安装',      ja:'産業機器設置工事'}},
+    {src:'images.project/installation-02.jpg',  cat:{en:'Industrial Installation',       th:'งานติดตั้งอุตสาหกรรม',   zh:'工业安装',      ja:'産業機器設置工事'}},
+    {src:'images.project/installation-03.png',  cat:{en:'Industrial Installation',       th:'งานติดตั้งอุตสาหกรรม',   zh:'工业安装',      ja:'産業機器設置工事'}},
+    {src:'images.project/machine-01.jpg',       cat:{en:'Machine Structure Fabrication', th:'งานโครงสร้างเครื่องจักร', zh:'机械结构制造',  ja:'機械架台・構造体製作'}},
+    {src:'images.project/machine-02.png',       cat:{en:'Machine Structure Fabrication', th:'งานโครงสร้างเครื่องจักร', zh:'机械结构制造',  ja:'機械架台・構造体製作'}},
+    {src:'images.project/machine-03.png',       cat:{en:'Machine Structure Fabrication', th:'งานโครงสร้างเครื่องจักร', zh:'机械结构制造',  ja:'機械架台・構造体製作'}},
+    {src:'images.project/custom-01.png',        cat:{en:'Custom Manufacturing',          th:'ผลิตชิ้นส่วนตามแบบ',      zh:'定制零件制造',  ja:'カスタム製造'}},
+    {src:'images.project/custom-02.png',        cat:{en:'Custom Manufacturing',          th:'ผลิตชิ้นส่วนตามแบบ',      zh:'定制零件制造',  ja:'カスタム製造'}},
+    {src:'images.project/custom-03.jpg',        cat:{en:'Custom Manufacturing',          th:'ผลิตชิ้นส่วนตามแบบ',      zh:'定制零件制造',  ja:'カสタム製造'}},
+    {src:'images.project/cnc-01.png',           cat:{en:'CNC Machining',                 th:'งานกลึงและกัด CNC',       zh:'CNC精密加工',  ja:'CNC精密加工'}}
   ]
 };
 
@@ -79,11 +81,11 @@ function renderProjects() {
     s.textContent = [
       '.gallery-grid{',
         'display:grid;',
-        'grid-template-columns:repeat(4,1fr);',
-        'gap:16px;',
+        'grid-template-columns:repeat(3,1fr);',
+        'gap:20px;',
       '}',
-      '@media(max-width:1023px){',
-        '.gallery-grid{grid-template-columns:repeat(3,1fr);}',
+      '@media(max-width:767px){',
+        '.gallery-grid{grid-template-columns:repeat(2,1fr);}',
       '}',
       '@media(max-width:639px){',
         '.gallery-grid{grid-template-columns:repeat(2,1fr);}',

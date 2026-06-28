@@ -11,10 +11,10 @@ C.contact = {
             th:'ติดต่อเราและขอใบเสนอราคา | เอ นิว เอ็นจิเนียริ่ง ไทย',
             zh:'联系我们并申请报价 | A NEW Engineering 泰国',
             ja:'お問い合わせ・見積依頼 | A NEW Engineering タイ'},
-    desc:  {en:'Contact A NEW Engineering in Si Racha, Chonburi. Request a quotation for fabrication, welding, installation & custom manufacturing. Upload drawings. Call 033-046-051-2.',
-            th:'ติดต่อ เอ นิว เอ็นจิเนียริ่ง ศรีราชา ชลบุรี ขอใบเสนอราคาสำหรับงานโครงสร้างเหล็ก เชื่อม ติดตั้ง และผลิตตามแบบ แนบแบบได้ โทร 033-046-051-2',
-            zh:'联系泰国春武里西拉差A NEW Engineering。申请钢结构制造、焊接、安装及定制零件报价。可上传图纸。电话033-046-051-2。',
-            ja:'A NEW Engineering（タイ チョンブリー シーラーチャー）へのお問い合わせ。鉄骨製作・溶接・設置工事・カスタム製造の見積依頼。図面アップロード可。電話033-046-051-2。'}
+    desc:  {en:'Contact A NEW Engineering in Si Racha, Chonburi. Request a quotation for fabrication, welding, installation & custom manufacturing. Upload drawings. Call 094-925-5553.',
+            th:'ติดต่อ เอ นิว เอ็นจิเนียริ่ง ศรีราชา ชลบุรี ขอใบเสนอราคาสำหรับงานโครงสร้างเหล็ก เชื่อม ติดตั้ง และผลิตตามแบบ แนบแบบได้ โทร 094-925-5553',
+            zh:'联系泰国春武里西拉差A NEW Engineering。申请钢结构制造、焊接、安装及定制零件报价。可上传图纸。电话094-925-5553。',
+            ja:'A NEW Engineering（タイ チョンブリー シーラーチャー）へのお問い合わせ。鉄骨製作・溶接・設置工事・カスタム製造の見積依頼。図面アップロード可。電話094-925-5553。'}
   },
 
   hero: {
@@ -108,10 +108,10 @@ C.contact = {
                   th:'ส่ง RFQ ของคุณเรียบร้อยแล้ว!',
                   zh:'您的询价单已成功提交！',
                   ja:'見積依頼を受け付けました！'},
-    successBody: {en:'Thank you for contacting A NEW Engineering. Our team will review your inquiry and respond as soon as possible. If your request is urgent, please call us directly at 033-046-051-2.',
-                  th:'ขอบคุณที่ติดต่อ เอ นิว เอ็นจิเนียริ่ง ทีมงานจะตรวจสอบข้อมูลและติดต่อกลับโดยเร็วที่สุด หากคำขอของคุณเร่งด่วน โปรดโทรหาเราโดยตรงที่ 033-046-051-2',
-                  zh:'感谢您联系A NEW Engineering。我们的团队将审核您的询价并尽快回复。如需紧急处理，请直接致电033-046-051-2。',
-                  ja:'A NEW Engineeringへのお問い合わせありがとうございます。内容を確認のうえ、できるだけ早くご連絡いたします。お急ぎの場合は、033-046-051-2へ直接お電話ください。'},
+    successBody: {en:'Thank you for contacting A NEW Engineering. Our team will review your inquiry and respond as soon as possible. If your request is urgent, please call us directly at 094-925-5553.',
+                  th:'ขอบคุณที่ติดต่อ เอ นิว เอ็นจิเนียริ่ง ทีมงานจะตรวจสอบข้อมูลและติดต่อกลับโดยเร็วที่สุด หากคำขอของคุณเร่งด่วน โปรดโทรหาเราโดยตรงที่ 094-925-5553',
+                  zh:'感谢您联系A NEW Engineering。我们的团队将审核您的询价并尽快回复。如需紧急处理，请直接致电094-925-5553。',
+                  ja:'A NEW Engineeringへのお問い合わせありがとうございます。内容を確認のうえ、できるだけ早くご連絡いたします。お急ぎの場合は、094-925-5553へ直接お電話ください。'},
     errorMsg:    {en:'Something went wrong. Please try again or contact us directly at sales@anew.co.th',
                   th:'เกิดข้อผิดพลาด กรุณาลองอีกครั้งหรือติดต่อเราโดยตรงที่ sales@anew.co.th',
                   zh:'出现错误，请重试或直接联系我们：sales@anew.co.th',
@@ -164,7 +164,8 @@ function renderContact() {
             <div class="contact-item">
               <div class="contact-item__label">📞 ${esc(t(c.info.phoneLabel))}</div>
               <div class="contact-item__value">
-                <a href="tel:033046051" class="contact-link">033-046-051-2</a>
+                <a href="tel:0949255553" class="contact-link">094-925-5553</a><br>
+                <a href="tel:0949255552" class="contact-link">094-925-5552</a>
               </div>
             </div>
 

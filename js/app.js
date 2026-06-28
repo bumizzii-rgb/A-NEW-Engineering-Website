@@ -183,7 +183,8 @@ function renderFooter() {
             <div class="footer__contact-item">
               <span>&#128222;</span>
               <span>
-                <a href="tel:${f.phone1}">${f.phone1}</a>
+                <a href="tel:${f.phone1}">${f.phone1}</a><br>
+                <a href="tel:${f.phone2}">${f.phone2}</a>
               </span>
             </div>
             <div class="footer__contact-item">
@@ -216,6 +217,7 @@ function renderFooter() {
             <div class="footer__col-title">${esc(t(f.col3))}</div>
             <a href="contact.html"       class="footer__link">${esc(t(n.contact))}</a>
             <a href="tel:${f.phone1}"   class="footer__link">${f.phone1}</a>
+            <a href="tel:${f.phone2}"   class="footer__link">${f.phone2}</a>
             <a href="mailto:${f.email1}" class="footer__link">${f.email1}</a>
             <div class="footer__link" style="cursor:default;opacity:.7">${esc(t(f.hours))}</div>
           </div>

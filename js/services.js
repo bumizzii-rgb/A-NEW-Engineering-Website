@@ -42,8 +42,10 @@ function renderServicesPage() {
   updateSEO(t(sp.seo.title), t(sp.seo.desc));
 
   /* Build service cards — title + description only */
-  var serviceCardsHtml = hs.items.map(function(s) {
-    return '<div class="service-card" style="justify-content:center">'
+  var SERVICE_ANCHORS = ['structural-steel','welding','installation','machine-structure','custom','cnc','reverse'];
+  var serviceCardsHtml = hs.items.map(function(s, i) {
+    var id = SERVICE_ANCHORS[i] ? ' id="' + SERVICE_ANCHORS[i] + '"' : '';
+    return '<div class="service-card"' + id + ' style="justify-content:center">'
       + '<div class="service-card__name">' + esc(t(s.name)) + '</div>'
       + '<div class="service-card__desc">' + esc(t(s.desc)) + '</div>'
       + '</div>';
